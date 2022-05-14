@@ -1,0 +1,698 @@
+{
+    "Desesperada": [
+        {
+            "cine/s": [
+                "CINEMA ROCHA"
+            ]
+        },
+        {
+            "Género": "Thriller"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "84 minutos."
+        },
+        {
+            "Director": "Phillip Noyce"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Naomi Watts, Sierra Maltby, Colton Gobbo, Debra Wilson, Woodrow Schrieber, David Reale"
+        }
+    ],
+    "El Hombre Del Norte": [
+        {
+            "cine/s": [
+                "CINEMA CITY"
+            ]
+        },
+        {
+            "Género": "Acción, Aventuras"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "136 minutos."
+        },
+        {
+            "Director": "Robert Eggers"
+        },
+        {
+            "Calificacion": "Apta mayores de 16 años"
+        },
+        {
+            "Actores": "Alexander Skarsgård, Nicole Kidman, Anya Taylor-Joy, Willem Dafoe, Ethan Hawke, Björk, Claes Bang, Ralph Ineson, Kate Dickie, Murray McArthur"
+        }
+    ],
+    "La Ciudad Perdida": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO",
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Aventura"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "112 minutos."
+        },
+        {
+            "Director": "Aaron Nee, Adam Nee"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Sandra Bullock, Channing Tatum, Daniel Radcliffe, Brad Pitt, Oscar Nuñez, Da'Vine Joy Randolph, Patti Harrison, Raymond Lee"
+        }
+    ],
+    "Virus 32": [
+        {
+            "cine/s": [
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Terror"
+        },
+        {
+            "Idioma": "Castellano"
+        },
+        {
+            "Origen": "Argentina"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "90 minutos."
+        },
+        {
+            "Director": "Gustavo Hernández"
+        },
+        {
+            "Calificacion": "Apta mayores de 16 años"
+        },
+        {
+            "Actores": "https://www.filmaffinity.com/ar/film539642.html#:~:text=Daniel%20Hendler,Franco%20Rilla"
+        }
+    ],
+    "El Joven Ahmed": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO"
+            ]
+        },
+        {
+            "Género": "Drama"
+        },
+        {
+            "Idioma": "-"
+        },
+        {
+            "Origen": "Bélgica"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "85 minutos."
+        },
+        {
+            "Director": "Jean-Pierre Dardenne, Luc Dardenne"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Idir Ben Addi, Olivier Bonnaud, Myriem Akheddiou, Victoria Bluck, Claire Bodson, Othmane Moumen"
+        }
+    ],
+    "Las Cosas Que No Te Conte": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO"
+            ]
+        },
+        {
+            "Género": "Drama"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "Reino Unido"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "100 minutos."
+        },
+        {
+            "Director": "William Nicholson"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años con reservas"
+        },
+        {
+            "Actores": "Annette Bening, Bill Nighy, Aiysha Hart, Josh O'Connor, Nicholas Burns, Rose Keegan, Sally Rogers, Steven Pacey,"
+        }
+    ],
+    "Las Rojas": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO"
+            ]
+        },
+        {
+            "Género": "Drama"
+        },
+        {
+            "Idioma": "Castellano"
+        },
+        {
+            "Origen": "Argentina"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "92 minutos."
+        },
+        {
+            "Director": "Matías Lucchesi"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Natalia Oreiro, Mercedes Morán, Diego Velázquez, Alberto Leiva"
+        }
+    ],
+    "Animales Fantásticos 3 : Los Secretos De Dumbledore": [
+        {
+            "cine/s": [
+                "CINEMA CITY",
+                "CINEMA CITY",
+                "CINEMA OCHO",
+                "CINEMA PARADISO",
+                "CINEMA ROCHA"
+            ]
+        },
+        {
+            "Género": "Fantasía"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "Reino Unido"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "142 minutos."
+        },
+        {
+            "Director": "David Yates"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Mads Mikkelsen, Jude Law, Eddie Redmayne, Ezra Miller, Katherine Waterston, Alison Sudol, Dan Fogler, Jessica Williams, Jeremy Azis"
+        }
+    ],
+    "Batman": [
+        {
+            "cine/s": [
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Acción"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "175 minutos."
+        },
+        {
+            "Director": "Matt Reeves"
+        },
+        {
+            "Calificacion": "Apta mayores de 16 años"
+        },
+        {
+            "Actores": "Robert Pattinson, Zöe Kravitz, Paul Dano, Andy Serkis, Colin Farrell, Jeffrey Wright, Peter Sarsgaard, John Turturro, Barry Keoghan"
+        }
+    ],
+    "Coda: Señales Del Corazón (re-estreno)": [
+        {
+            "cine/s": [
+                "CINEMA CITY"
+            ]
+        },
+        {
+            "Género": "Drama"
+        },
+        {
+            "Idioma": "Inglés subtitulada"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "111 minutos."
+        },
+        {
+            "Director": "Sian Heder"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Emilia Jones, Eugenio Derbez, Marlee Matlin, Troy Kotsur, Daniel Durant, Ferdia Walsh-Peelo, Amy Forsyth, Kevin Chapman"
+        }
+    ],
+    "Competencia Oficial": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO"
+            ]
+        },
+        {
+            "Género": "Comedia dramática"
+        },
+        {
+            "Idioma": "Castellano"
+        },
+        {
+            "Origen": "España"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "114 minutos."
+        },
+        {
+            "Director": "Gastón Duprat, Mariano Cohn"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Antonio Banderas, Penélope Cruz, Oscar Martínez, Carlos Hipólito, Irene Escolar, Nagore Aranburu, Pilar Castro, José Luis Gómez, Juan Grandinetti"
+        }
+    ],
+    "El Exorcismo De Dios": [
+        {
+            "cine/s": [
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Terror"
+        },
+        {
+            "Idioma": "Inglés subtitulada"
+        },
+        {
+            "Origen": "México"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "98 minutos."
+        },
+        {
+            "Director": "Alejandro Hidalgo"
+        },
+        {
+            "Calificacion": "Apta mayores de 16 años"
+        },
+        {
+            "Actores": "Maria Gabriela de Faría, Joseph Marcell, Will Beinbrink"
+        }
+    ],
+    "Encanto": [
+        {
+            "cine/s": [
+                "CINEMA ROCHA",
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Animación"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "109 minutos."
+        },
+        {
+            "Director": "Jared Bush, Charise Castro Smith, Byron Howard"
+        },
+        {
+            "Calificacion": "Apta todo público"
+        },
+        {
+            "Actores": "Animación. VOCES ORIGINALES: Stephanie Beatriz."
+        }
+    ],
+    "Jack En La Caja Maldita": [
+        {
+            "cine/s": [
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Terror"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "Reino Unido"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "87 minutos."
+        },
+        {
+            "Director": "Lawrence Fowler"
+        },
+        {
+            "Calificacion": "-"
+        },
+        {
+            "Actores": "Robert Nairne, Ethan Taylor, Lucy-Jane Quinlan, Darrie Gardner, Philip Ridout, Simon Balfour, Charles Abomeli, Laura Janes"
+        }
+    ],
+    "Jujutsu Kaisen 0": [
+        {
+            "cine/s": [
+                "CINEMA OCHO"
+            ]
+        },
+        {
+            "Género": "Aventura"
+        },
+        {
+            "Idioma": "Japonés Subtitulado"
+        },
+        {
+            "Origen": "Japón"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "105 minutos."
+        },
+        {
+            "Director": "Sunghoo Park"
+        },
+        {
+            "Calificacion": "Apta todo público"
+        },
+        {
+            "Actores": "Animación"
+        }
+    ],
+    "Los Tipos Malos": [
+        {
+            "cine/s": [
+                "CINEMA CITY",
+                "CINEMA OCHO"
+            ]
+        },
+        {
+            "Género": "Acción, Aventuras"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "100 minutos."
+        },
+        {
+            "Director": "Pierre Perifel"
+        },
+        {
+            "Calificacion": "Apta todo público C/L"
+        },
+        {
+            "Actores": "Animación"
+        }
+    ],
+    "Morbius": [
+        {
+            "cine/s": [
+                "CINEMA OCHO",
+                "CINEMA ROCHA"
+            ]
+        },
+        {
+            "Género": "FANTASIA- TERROR- ACCION"
+        },
+        {
+            "Idioma": "Inglés subtitulada"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "108 minutos."
+        },
+        {
+            "Director": "Daniel Espinosa"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Jared Leto, Tyrese Gibson, J.K. Simmons, Matt Smith, Adria Arjona, Jared Harris, Charlie Shotwell, Corey Johnson, Tom Forbes, Adam El Hagar, Archie Re"
+        }
+    ],
+    "Sing 2": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO",
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Animación"
+        },
+        {
+            "Idioma": "Castellano"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "110 minutos."
+        },
+        {
+            "Director": "Garth Jennings"
+        },
+        {
+            "Calificacion": "Apta todo público"
+        },
+        {
+            "Actores": "Animación, Voz: Matthew McConaughey, Reese Witherspoon, Scarlett Johansson, Taron Egerton, Bobby Cannavale, Tori Kelly, Nick Kroll, Pharrell Williams"
+        }
+    ],
+    "Sonic 2": [
+        {
+            "cine/s": [
+                "CINEMA CITY",
+                "CINEMA CITY",
+                "CINEMA OCHO",
+                "CINEMA PARADISO",
+                "CINEMA ROCHA",
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Animación"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "No disponible"
+        },
+        {
+            "Director": "Jeff Fowler"
+        },
+        {
+            "Calificacion": "Apta todo público"
+        },
+        {
+            "Actores": "Voces originales: Tika Sumpter, Jim Carrey, James Marsden, Natasha Rothwell, Shemar Moore, Adam Pally, Lee Majdoub. Voz: Ben Schwartz"
+        }
+    ],
+    "Spiderman: Sin Camino A Casa": [
+        {
+            "cine/s": [
+                "CINEMA ROCHA"
+            ]
+        },
+        {
+            "Género": "Acción, Aventuras"
+        },
+        {
+            "Idioma": "Inglés subtitulada"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "148 minutos."
+        },
+        {
+            "Director": "Jon Watts"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Tom Holland, Zendaya, Jacob Batalon, Benedict Cumberbatch, Marisa Tomei, Alfred Molina, Jamie Foxx"
+        }
+    ],
+    "Tiempos Violentos - Re Estreno": [
+        {
+            "cine/s": [
+                "CINEMA PARADISO"
+            ]
+        },
+        {
+            "Género": "Thriller"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "154 minutos."
+        },
+        {
+            "Director": "Quentin Tarantino"
+        },
+        {
+            "Calificacion": "Apta mayores de 18 años"
+        },
+        {
+            "Actores": "John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, Ving Rhames, Harvey Keitel, Tim Roth, Amanda Plummer, María de Medeiros"
+        }
+    ],
+    "Uncharted: Fuera Del Mapa": [
+        {
+            "cine/s": [
+                "CINEMA SAN MARTIN"
+            ]
+        },
+        {
+            "Género": "Acción, Aventuras"
+        },
+        {
+            "Idioma": "Inglés"
+        },
+        {
+            "Origen": "EEUU"
+        },
+        {
+            "Web Oficial": "No disponible"
+        },
+        {
+            "Duracion": "115 minutos."
+        },
+        {
+            "Director": "Ruben Fleischer"
+        },
+        {
+            "Calificacion": "Apta mayores de 13 años"
+        },
+        {
+            "Actores": "Tom Holland, Mark Wahlberg, Antonio Banderas, Tati Gabrielle, Sophia Taylor Ali, Patricia Meeden, Sarah Petrick"
+        }
+    ]
+}

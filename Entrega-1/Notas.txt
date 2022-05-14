@@ -1,0 +1,7 @@
+Simplemente quiero aclarar que en esta "Entrega"(Entre comillas porq es un solo sitio de los 2 pedidos). 
+Entrego esto para mostrar el sitio cinema la plata y que pude hacer un scrapper a mano.
+Con mas tiempo voy a seguir con Cinepolis, ya que estuve muy trabado con el tema de extraccion de informacion,
+luego en clase nos sugirieron usar Selenium y eso hice, luego me trabé nuevamente utlizando una herramienta que se llama Xpath que me pareció interesante.
+Por utlimo, tambien charlando en clase, encontré una solucion al problema con Xpath que me deberia poder avanzar bastante con el sitio, aunq la parte mas dificil es,
+sin dudas, llegar a los horarios de las peliculas en cada Sala/Cine.
+Espero en un corto plazo terminar toda la entrega como se nos pidió. Mientras tanto, disculpen por la entrega incompleta

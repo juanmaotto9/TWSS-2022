@@ -1,0 +1,378 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "actors": [
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/robert_pattinson",
+                "image": "https://resizing.flixster.com/QkgyoFtFMA2bCcI_kt24eUIoCrk=/100x120/v2/https://flxt.tmsimg.com/assets/487714_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/zoe_kravitz",
+                "image": "https://resizing.flixster.com/73c4MTWqOrRyx5Yhaiy8SpB5g4E=/100x120/v2/https://flxt.tmsimg.com/assets/506834_v9_bc.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/jeffrey_wright",
+                "image": "https://resizing.flixster.com/mUaekObPbOxwHnFsAUuQtzDlWGg=/100x120/v2/https://flxt.tmsimg.com/assets/82013_v9_bc.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/colin_farrell",
+                "image": "https://resizing.flixster.com/HnRBTvazSlA1C_HeTRhvtaYqCCU=/100x120/v2/https://flxt.tmsimg.com/assets/199695_v9_ba.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/paul_dano",
+                "image": "https://resizing.flixster.com/tbQSKn2KCdE2H2k0bcPoRk5lSmk=/100x120/v2/https://flxt.tmsimg.com/assets/267214_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/john_turturro",
+                "image": "https://resizing.flixster.com/4PH--GdhfgNj7NwE4iwD2pE8Jxw=/100x120/v2/https://flxt.tmsimg.com/assets/33505_v9_ba.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/andy_serkis",
+                "image": "https://resizing.flixster.com/Al9MVxw4vyXTnjT56muKhUbBGTs=/100x120/v2/https://flxt.tmsimg.com/assets/85991_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/peter_sarsgaard",
+                "image": "https://resizing.flixster.com/YqritfiEE8GdwXlE9wqWhFIFBk4=/100x120/v2/https://flxt.tmsimg.com/assets/156537_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/barry_keoghan",
+                "image": "https://resizing.flixster.com/ZsNLEHxLMawTIcRCu2jcfXuRuh0=/100x120/v2/https://flxt.tmsimg.com/assets/738434_v9_bc.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/jayme_lawson",
+                "image": "https://resizing.flixster.com/M3NTpEfMlpd7IOY0dPwybEJQ3tU=/100x120/v2/https://flxt.tmsimg.com/assets/1298715_v9_aa.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/gil_perez_abraham",
+                "image": ""
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/peter_mcdonald",
+                "image": "https://resizing.flixster.com/0BBRzpVGiZCZRYecL9ZSFw6q8Vg=/100x120/v2/https://flxt.tmsimg.com/assets/150688_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/con_oneill",
+                "image": "https://resizing.flixster.com/kYQ9rG-nRkV7QoscmdP2QQoSsSk=/100x120/v2/https://flxt.tmsimg.com/assets/71150_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/alex-ferns",
+                "image": "https://resizing.flixster.com/KlMWnTbzoV0Exu2Gy1DEpVB14Hk=/100x120/v2/https://flxt.tmsimg.com/assets/169109_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/rupert_penryjones",
+                "image": "https://resizing.flixster.com/NwqWV5qnAaI9orkCg2Kq2dAFlEk=/100x120/v2/https://flxt.tmsimg.com/assets/171652_v9_bb.jpg"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "100",
+            "description": "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show.",
+            "name": "Tomatometer",
+            "ratingCount": 460,
+            "ratingValue": "85",
+            "reviewCount": 460,
+            "worstRating": "0"
+        },
+        "author": [
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/matt_reeves",
+                "image": "https://resizing.flixster.com/EO1nXHqFd96-V6Kmhha5LzmJGXg=/100x120/v2/https://flxt.tmsimg.com/assets/221334_v9_bb.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/peter_craig",
+                "image": "https://resizing.flixster.com/TiFS_3JTMSD0LEpzQdAiQEPWa4w=/100x120/v2/https://flxt.tmsimg.com/assets/588782_v9_bb.jpg"
+            }
+        ],
+        "character": [
+            "Bruce Wayne",
+            "The Batman",
+            "Selina Kyle",
+            "Lt. James Gordon",
+            "Oz",
+            "The Penguin",
+            "The Riddler",
+            "Carmine Falcone",
+            "Alfred",
+            "District Attorney Gil Colson",
+            "Unseen Arkham Prisoner",
+            "Bella Reál",
+            "Officer Martinez",
+            "Kenzie",
+            "Chief Mackenzie Bock",
+            "Commissioner Pete Savage",
+            "Mayor Don Mitchell Jr."
+        ],
+        "contentRating": "PG-13",
+        "dateCreated": "TODO_MISSING",
+        "dateModified": "TODO_MISSING",
+        "datePublished": null,
+        "director": [
+            {
+                "@type": "Person",
+                "name": "NA",
+                "sameAs": "https://www.rottentomatoes.com/celebrity/matt_reeves",
+                "image": "https://resizing.flixster.com/EO1nXHqFd96-V6Kmhha5LzmJGXg=/100x120/v2/https://flxt.tmsimg.com/assets/221334_v9_bb.jpg"
+            }
+        ],
+        "genre": [
+            "Crime",
+            "Adventure",
+            "Drama",
+            "Action"
+        ],
+        "image": "https://resizing.flixster.com/wCeMkwGtJnDI_3idIpt_bP9E6Ng=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/119/558/thumb_E73CC7F6-2A6D-4091-8B93-920C6DE6D730.jpg",
+        "name": "The Batman",
+        "url": "https://www.rottentomatoes.com/m/the_batman"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt1877830/",
+        "name": "The Batman",
+        "alternateName": "Batman",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg",
+        "description": "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city&apos;s hidden corruption and question his family&apos;s involvement.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1877830/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "benjaminskylerhill"
+            },
+            "dateCreated": "2022-03-03",
+            "inLanguage": "English",
+            "name": "Pattinson can remove Twilight from his resume.",
+            "reviewBody": "I hesitate to say that a movie is perfect, especially after a first viewing. But gosh dang if this isn&apos;t close. And boy does it earn its beefy three hour runtime.\n\nBatman was always meant to be a film noir. And it&apos;s incredible to me that we haven&apos;t seen this before now. This is a mystery crime drama film that happens to feature Batman, and it&apos;s beautiful.\n\nIt&apos;s dripping with gritty atmosphere. Gotham is a bleak, decaying world in this film, and it has never been shown to this extent, nor with this level of visual prowess. Any shot in this movie would be considered the best shot in any other superhero movie. If this isn&apos;t at least in contention for every cinematography award, then awards will officially have lost all meaning to me.\n\nThe story is a puzzle, like all good crime mysteries, and the puzzle pieces place themselves together at a very satisfying rate. It&apos;s so efficiently paced, making three hours feel like far far less.\n\nBoasting one of the most intelligent scripts ever seen in a superhero movie, The Batman has minimal exposition and yet is still stuffed to the brim with subtle thematic depth and small but satisfying character arcs.\n\nBatman changes in his worldview throughout this movie, and I&apos;ve never seen it done this effectively in a Batman film. Things become personal to him in such a believable way. I felt it, even amidst the chaotic plot that&apos;s untangling itself around the character.\n\nMany will compare this film to The Dark Knight, but that&apos;s not fair. This is an entirely different beast, going on an completely different journey.\n\nThis is cinema, and it&apos;s cinema at one of its finest moments. Matt Reeves has cemented himself as one of the world&apos;s greatest working filmmakers, and I love that he&apos;s putting his talents to work in popular genres, elevating them to greater heights.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 10
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 344382,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 8.2
+        },
+        "contentRating": "16",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "datePublished": "2022-03-03",
+        "keywords": "superhero,batman character,based on comic,dc comics,gotham city",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Official Trailer",
+            "embedUrl": "/video/imdb/vi3215114777",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTdjOTQ1NDItYjBkYy00OTA3LTk3NDItOTk5YTg4NGZmYmZhXkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTdjOTQ1NDItYjBkYy00OTA3LTk3NDItOTk5YTg4NGZmYmZhXkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg",
+            "description": "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city&apos;s hidden corruption and question his family&apos;s involvement."
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm1500155/",
+                "name": "Robert Pattinson"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2368789/",
+                "name": "Zoë Kravitz"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0942482/",
+                "name": "Jeffrey Wright"
+            }
+        ],
+        "director": [
+            {
+                "@type": "Person",
+                "url": "/name/nm0716257/",
+                "name": "Matt Reeves"
+            }
+        ],
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0002663/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0510680/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0038332/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0716257/",
+                "name": "Matt Reeves"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0185976/",
+                "name": "Peter Craig"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0277730/",
+                "name": "Bill Finger"
+            }
+        ],
+        "duration": "PT2H56M"
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "@id": "https://www.ecartelera.com/peliculas/the-batman/",
+        "name": "The Batman",
+        "mainEntityOfPage": "https://www.ecartelera.com/peliculas/the-batman/",
+        "description": "Nuevo reboot de Batman. Tras los cambios y retrasos en la producción y la salida de Ben Affleck del proyecto, no se sabe cuánta relación tendrá con el resto de películas del Universo DC, ya que no será el mismo Batman que el de &#39;La Liga de la Justicia&#39;. Los rumores apuntan a una historia del Batman más joven, y estará bastante cercana al estilo del cine negro.  El protagonista tras el traje del justiciero es Robert Pattinson (&#39;Crepúsculo&#39;, &#39;El Faro&#39;). Le acompañan en el reparto Zoë Kravitz (&#39;Big Little Lies&#39;) como Catwoman, Colin Farrell (&#39;The Gentlemen: Los señores de la mafia&#39;) como El Pingüino, Andy Serkis (&#39;Black Panther&#39;) como Alfred Pennysworth, el mayordomo de Wayne, Jeffrey Wrigth (&#39;Westworld&#39;) como el comisario James Gordon, Peter Sarsgaard (&#39;Loving Pablo&#39;) como Gil Colson, John Turturo (&#39;Gloria Bell&#39;) como Carmine Falcone, Paul Dano (&#39;Okja&#39;) como Edward Naston y Jayme Lwason como Bella Reál.\r\n\r\nMatt Reeves (&#39;La Guerra del Planeta de los Simios&#39;) es el encargado de dirigir esta cinta y también de escribir el guion junto a Mattson Tomlin. Se rumorea que la trama podría estar relacionada con el cómic &#39;Batman: El caballero oscuro regresa&#39; o que incluso podría estar inspirada en la trilogía de videojuegos de Rocksteady &#39;Batman: Arkham&#39;. Se espera al personaje de Robin y quizá a Red Hood como villano. Un largometraje producido por Warner Bros y DC Entertainment.",
+        "duration": "PT2H56M",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://img.ecartelera.com/carteles/11100/11185/001_p.jpg"
+        },
+        "countryOfOrigin": "EE.UU.",
+        "genre": [
+            "Acción",
+            "Crimen",
+            "Drama"
+        ],
+        "releasedEvent": {
+            "@type": "PublicationEvent",
+            "startDate": "2022-03-04",
+            "location": {
+                "@type": "Country",
+                "name": "ES"
+            }
+        },
+        "productionCompany": {
+            "@type": "Organization",
+            "name": "Warner Bros. Pictures",
+            "mainEntityOfPage": "https://www.ecartelera.com/empresas/warner-bros/"
+        },
+        "hasPart": {
+            "@type": "Clip",
+            "description": "trailer",
+            "timeRequired": "PT2M39S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.ecartelera.com/videos/trailer-espanol-the-batman-3/",
+                    "inLanguage": "es",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform",
+                        "http://schema.org/IOSPlatform",
+                        "http://schema.googleapis.com/GoogleVideoCast"
+                    ]
+                },
+                "expectsAcceptanceOf": {
+                    "@type": "Offer",
+                    "availabilityStarts": "2022-01-19 18:29:01",
+                    "category": "free",
+                    "eligibleRegion": {
+                        "@type": "Country",
+                        "name": "ES"
+                    }
+                }
+            }
+        },
+        "director": [
+            {
+                "@type": "Person",
+                "name": "Matt Reeves",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/matt-reeves/"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Robert Pattinson",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/robert-pattinson/"
+            },
+            {
+                "@type": "Person",
+                "name": "Zoë Kravitz",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/zoe-kravitz/"
+            },
+            {
+                "@type": "Person",
+                "name": "Colin Farrell",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/colin-farrell/"
+            },
+            {
+                "@type": "Person",
+                "name": "Andy Serkis",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/andy-serkis/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jeffrey Wright",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/jeffrey-wright/"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter Sarsgaard",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/peter-sarsgaard/"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "66",
+            "ratingValue": "7,9"
+        }
+    }
+]

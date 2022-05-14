@@ -1,0 +1,33 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Movie",
+    "name": [
+        "The Batman"
+    ],
+    "genre": [
+        "Drama",
+        "Acción",
+        "Crime",
+        "Action",
+        "Crimen",
+        "Adventure"
+    ],
+    "director": [
+        "Matt Reeves"
+    ],
+    "actor": [
+        "Robert Pattinson",
+        "Colin Farrell",
+        "Zoë Kravitz",
+        "Peter Sarsgaard",
+        "Jeffrey Wright",
+        "Andy Serkis"
+    ],
+    "duration": [
+        "PT2H56M"
+    ],
+    "description": [
+        "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city&apos;s hidden corruption and question his family&apos;s involvement.",
+        "Nuevo reboot de Batman. Tras los cambios y retrasos en la producción y la salida de Ben Affleck del proyecto, no se sabe cuánta relación tendrá con el resto de películas del Universo DC, ya que no será el mismo Batman que el de &#39;La Liga de la Justicia&#39;. Los rumores apuntan a una historia del Batman más joven, y estará bastante cercana al estilo del cine negro.  El protagonista tras el traje del justiciero es Robert Pattinson (&#39;Crepúsculo&#39;, &#39;El Faro&#39;). Le acompañan en el reparto Zoë Kravitz (&#39;Big Little Lies&#39;) como Catwoman, Colin Farrell (&#39;The Gentlemen: Los señores de la mafia&#39;) como El Pingüino, Andy Serkis (&#39;Black Panther&#39;) como Alfred Pennysworth, el mayordomo de Wayne, Jeffrey Wrigth (&#39;Westworld&#39;) como el comisario James Gordon, Peter Sarsgaard (&#39;Loving Pablo&#39;) como Gil Colson, John Turturo (&#39;Gloria Bell&#39;) como Carmine Falcone, Paul Dano (&#39;Okja&#39;) como Edward Naston y Jayme Lwason como Bella Reál.\r\n\r\nMatt Reeves (&#39;La Guerra del Planeta de los Simios&#39;) es el encargado de dirigir esta cinta y también de escribir el guion junto a Mattson Tomlin. Se rumorea que la trama podría estar relacionada con el cómic &#39;Batman: El caballero oscuro regresa&#39; o que incluso podría estar inspirada en la trilogía de videojuegos de Rocksteady &#39;Batman: Arkham&#39;. Se espera al personaje de Robin y quizá a Red Hood como villano. Un largometraje producido por Warner Bros y DC Entertainment."
+    ]
+}

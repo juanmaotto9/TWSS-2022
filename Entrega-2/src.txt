@@ -1,0 +1,2 @@
+Simplemente ejecute el archivo Main.py, en él se llama a 2 grandes metodos, uno es para obtener, y el otro es para mergear la información obtenida de las URL,
+además puede encontrar algunos métodos mas chicos que son invocados por el segundo para evitar repetir código y separar un poco el proceso de mergear las url.

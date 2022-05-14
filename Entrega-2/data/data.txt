@@ -1,0 +1,3 @@
+En esta entrega genero 2 archivos ".json" para guardar la información obtenida.
+En el primero "info_websites.json", guardo el contenido de cada URL.
+El segundo "merge_websites.json", guardo el resultado que obtengo de mergear toda la información obtenida en las URL anteriores.

@@ -1,0 +1,33 @@
+¿Que formato y vocabulario utiliza cada URL?
+RTA: Las urls utilizan JSON-LD y Schema.org
+
+¿Cuán complejos son, en comparación con los scrappers que escribió en el TP1, los extractores que tuvo que escribir ahora?
+RTA: Son sumamente sencillos los extractores en este tp comparado al primero, un solo find con BeautifulSoup es suficiente para traer la informacion necesaria de cada URL. 
+
+¿Tuvo que hacer uno para cada página o pudo reutilizarlos? Si encontráramos otro sitio que hable de una pelicula utilizando Schema.org y Microdatos o JSON-LD como mecanismo de serialización, ¿podríamos utilizar estos extractores?
+RTA: No hubo necesidad de hacer uno por pagina, asi que deduzco que ante otro sitio que cumpla las mismas caracteristicas que los vistos, puedo usar el mismo extractor.
+
+¿Cuáles cree que son las ventajas y desventajas de utilizar Microdata?
+RTA: Es el formato más popular y más utilizado actualmente para etiquetar los elementos de una web.
+La ventaja decisiva de los microdatos es la descripción de la información semántica, es decir,
+ la información sobre el significado de los respectivos datos.
+ Los microformatos son uno de los muchos pasos hacia una web semántica en la que el significado de los datos se representa de diversas maneras.
+
+¿Cuáles cree que son las ventajas y desventajas de utilizar JSON-LD?
+RTA:La ventaja principal de este método es que separa por completo la marcación de los elementos de del body y esto facilita el etiquetado para los desarrolladores,
+ sobre todo para sitios que son muy dinámicos y van construyendo sus elementos con base en la interacción del usuario.
+Utilizar JSON-LD permite implementar menos código y resulta más amigable tanto para robots como para desarrolladores. Basta con meter las especificaciones en el <head>,
+ lo cual permite también que los robots no tengan que procesar todo el código HTML para entender las relaciones en el documento, sino que lo obtendrán directo de un objeto JSON.
+
+¿Cuáles cree que son las ventajas y desventajas de utilizar el vocabulario de Schema.org?
+RTA: Schema.org es un vocabulario que puede ser utilizado en muchas formas, el sitio web http://schema.org/tiene ejemplos usando Microdatosy las sintaxis RDF RDFay JSON-LD,
+ pero estas no son las únicas sintaxis con las que se puede usar.
+Algunas de sus ventajas son: -La indexación de un sitio web de manera más sencilla y rápida.
+-Mejora en el ránking de la posición en Google.
+-Mejora de la experiencia de los usuarios.
+-Mayor visibilidad.
+-Mayor relevancia del sitio web.
+
+¿Cuáles cree que son los desafíos que todavía quedan por resolver?
+RTA: En mi caso en particular, resta resolver el error por el cual el sitio https://www.metacritic.com/movie/the-batman da error.
+Ademas de típicos problemas sobre el criterio de selección a la hora de mergear, por ejemplo que un dato este en alguno sitios y en otros no, o si el formato del dato es diferente en todos los sitios.
