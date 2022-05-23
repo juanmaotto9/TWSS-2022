@@ -1,0 +1,446 @@
+[
+    {
+        "@type": "Movie",
+        "name": "Llamas De Venganza",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:30 - 18:45 - 20:45', 'JUEVES A MARTES SUBTITULADA:   22:45', 'MIÉRCOLES CASTELLANO:   20:45', 'MIÉRCOLES SUBTITULADA:   22:45']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Un Amor Cerca Del Paraiso",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES SUBTITULADA:   13:00 - 16:50 - 20:55', 'MIÉRCOLES SUBTITULADA:   22:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Competencia Oficial",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   20:15', 'MIÉRCOLES CASTELLANO:   20:15']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "El Sistema K.e.o.p.s",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 23:15', 'MIÉRCOLES CASTELLANO:   23:15']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Morbius",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   20:15', 'MIÉRCOLES CASTELLANO:   20:15']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Animales Fantásticos 3 : Los Secretos De Dumbledore",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:15 - 16:20 - 19:25 - 22:30', 'MIÉRCOLES CASTELLANO:   20:15 - 23:05']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:20 - 18:05 - 23:15', 'MIÉRCOLES CASTELLANO:   23:15']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES SUBTITULADA:   20:30 - 23:15', 'MIÉRCOLES SUBTITULADA:   20:30 - 23:15']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Batman",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:30 - 22:30', 'MIÉRCOLES CASTELLANO:   22:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Doctor Strange En El Multiverso De La Locura",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   20:00', 'JUEVES A MARTES SUBTITULADA:   23:00', 'MIÉRCOLES CASTELLANO:   20:15', 'MIÉRCOLES SUBTITULADA:   23:00']",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:30 - 16:30', 'JUEVES A MARTES SUBTITULADA:   19:30 - 22:30', 'MIÉRCOLES SUBTITULADA:   20:00 - 22:45']",
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   19:45', 'MIÉRCOLES CASTELLANO:   20:10']",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:45 - 16:45', 'JUEVES A MARTES SUBTITULADA:   22:45', 'MIÉRCOLES SUBTITULADA:   22:50']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00']",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   18:05 - 22:50', 'JUEVES A MARTES SUBTITULADA:   15:30 - 20:40 - 23:15', 'MIÉRCOLES CASTELLANO:   22:50', 'MIÉRCOLES SUBTITULADA:   20:40 - 23:15']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:15', 'JUEVES A MARTES SUBTITULADA:   16:15 - 19:15 - 22:15', 'MIÉRCOLES SUBTITULADA:   20:00 - 23:00']",
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   17:00']",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   14:00 - 20:00 - 23:00', 'MIÉRCOLES CASTELLANO:   20:10 - 22:45']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "El Buen Patrón",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 20:50', 'MIÉRCOLES CASTELLANO:   20:50']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "El Exorcismo De Dios",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   23:10', 'MIÉRCOLES CASTELLANO:   23:10']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "El Hombre Del Norte",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES SUBTITULADA:   17:10 - 20:25 - 23:10', 'MIÉRCOLES SUBTITULADA:   20:25 - 23:10']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "En La Mira",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 19:10 - 23:15', 'MIÉRCOLES CASTELLANO:   20:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Encanto",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:20 - 20:55', 'MIÉRCOLES CASTELLANO:   20:55']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Jack En La Caja Maldita",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   23:10', 'MIÉRCOLES CASTELLANO:   23:10']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "La Ciudad Perdida",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 18:00 - 20:30', 'MIÉRCOLES CASTELLANO:   20:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Los Tipos Malos",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 15:00']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   18:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Sing 2",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   14:40']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   18:00']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Sonic 2",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 15:30 - 18:00']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:30 - 16:00 - 20:35', 'MIÉRCOLES CASTELLANO:   20:35']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:20 - 17:45']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:20 - 15:45 - 18:10']",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 15:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Spiderman: Sin Camino A Casa",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   17:45']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "Uncharted: Fuera Del Mapa",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:30']",
+                "videoFormat": "sala hd"
+            }
+        ]
+    }
+]

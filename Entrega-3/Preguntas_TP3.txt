@@ -1,0 +1,38 @@
+¿Qué ventajas supone que hubiese obtenido si en los trabajos anteriores contaba con la información descrita en OWL?
+Las ventajas mas claras se ven en la obtencion y el tratado de la información, se hubiese trabajado con mayor velocidad y organización.
+
+
+¿Qué ventajas tiene utilizar vocabularios existentes en lugar de crear los propios?
+Al estar ya creados y "conocidos" implica que se puede establecer un estandar que puedan seguir las personas que asi lo deseen. 
+
+
+¿Utilizó solamente clases y propiedades de un único vocabulario?
+En mi caso utilice Schema por haber charlado con mis compañeros en clase, y ya que les pregunte que habian utilizando elegi schema.
+Podria haber utilizado FOAF además.
+
+
+
+¿Que impacto hubiese tenido al momento de almacenar la información obtenida el contar con un modelo como OWL?
+Muchas ontologías representadas en un lenguaje como OWL conjuntamente con sus instancias,
+ representa una dificultad a la hora de gestionar sus operaciones ya que al encontrarse en un texto plano requiere la utilización de herramientas como Protégé
+ que levante toda la información en memoria principal para la realización de dichas operaciones; sin embargo, aunque estas herramientas son fáciles de diseñar están
+ limitadas por la disponibilidad de memoria principal. Basado en esto se propone la utilización de bases de datos que facilite la gestión de las ontologías ya que por
+ las características de un DBMS en la que la distribución, flexibilidad, heterogeneidad representan una gran ventaja, se garantiza la disponibilidad e
+ integridad de la información .
+
+Surge entonces, el concepto de Base de Datos basada en Ontologías (Ontology-based Database OBDB).
+ Un OBDB es el almacenamiento de un modelo ontológico y sus instancias en una base de datos para la gestión de la información que se encuentra semánticamente
+ estructurada.
+
+La estructuración de los datos comprende dos modelos: orientado a objeto y basado en entidad-relación.
+ Las ontologías utilizan el modelo orientado a objeto, ya que se estructura en clases, subclases y propiedades.
+ De esta manera, un OBDB es una base de datos orientada a objetos virtual, sobre la base de datos relacional.
+ Esto lleva a la necesidad de realizar un mapeo en la que una base de datos entidad-relación almacene información estructurada de forma orientada a objetos.
+ Existen muchos modelos o esquema de mapeo para el mismo, tales como: la representación vertical y la representación binaria,
+ en la que se combina representaciones verticales y horizontales; por otro lado, existen arquitecturas que emplean estos esquemas a través de un OBDB.
+
+
+
+¿Qué diferencia hay entre utilizar un modelo de objetos para integrar la información que obtuvo (como hizo anteriormente) con utilizar tripletas?
+La diferencia que hay es que anteriormente teniamos que armar a mano formato en el que mostrabamos la informacion. Ahora, con las tripletas, ya tenemos
+un estandar para seguir, con todo lo bueno positivo que esto lleva.
