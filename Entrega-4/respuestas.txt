@@ -1,0 +1,15 @@
+¿Qué requisitos debe cumplir el archivo dataset-original.ttl para que su programa funcione adecuadamente?
+Con que la Person tenga rdf:type owl:NamedIndividual el programa debe andar correctamente.
+
+¿Cree que funcionará si le damos como entrada el archivo generado por alguno de sus compañeros?
+En mi caso probe con el de Luciana y funcionó.
+
+¿Cómo efectuó la búsqueda de correspondencias entre su dataset y dbpedia?
+Utilizando https://dbpedia.org/page/nombre actor por cada tripleta que recorria del dataset 
+
+¿Se podría automatizar la búsqueda de correspondencias? ¿Cómo? ¿Con qué efectividad? 
+Consultar en clase, charlamos con Nicolas y no llegamos a una rta clara.
+
+Le pedimos que incluya la información obtenida de dbpedia en el archivo resultante. Desde el punto de vista de alguien que va a utilizar su dataset,
+ ¿era necesario incluir esa información o alcanzaba con solo proveer los links sameAs?
+En el archivo links, que esta creado a mano utilizando 11(Eran muchos entonces elegí acotar), estan las referencias a los actores, y esto debería alcanzar para obtener los datos de dbpedia.

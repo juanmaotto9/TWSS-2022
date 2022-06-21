@@ -1,0 +1,3518 @@
+@prefix : <http://www.semanticweb.org#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sw: <http://www.semanticweb.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org> a owl:Ontology .
+
+:directs a owl:ObjectProperty ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf schema:director .
+
+:hasSequel a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf :sequelOf .
+
+:performsIn a owl:ObjectProperty ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf schema:actor .
+
+:playedIn a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:ScreeningEvent ;
+    owl:inverseOf schema:workPresented .
+
+:worksWith a owl:IrreflexiveProperty,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Person .
+
+sw:365_Days_This_Day a schema:Movie ;
+    rdfs:label "365 Days This Day" ;
+    schema:actor sw:Anna-Maria_Sieklucka,
+        sw:Michele_Morrone,
+        sw:Simone_Susinna ;
+    schema:datePublished "2022-04-27"^^xsd:date ;
+    schema:director sw:Barbara_Bialowas,
+        sw:Tomasz_Mandes ;
+    schema:duration "PT1H51M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Romance" ;
+    schema:image sw:image10 ;
+    schema:name "365 Days This Day" .
+
+sw:365_dni a schema:Movie ;
+    rdfs:label "365 dni" ;
+    schema:actor sw:Anna-Maria_Sieklucka,
+        sw:Bronislaw_Wroclawski,
+        sw:Michele_Morrone ;
+    schema:datePublished "2020-06-07"^^xsd:date ;
+    schema:director sw:Barbara_Bialowas,
+        sw:Tomasz_Mandes ;
+    schema:duration "PT1H54M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Romance" ;
+    schema:image sw:image13 ;
+    schema:name "365 dni" .
+
+sw:Along_for_the_Ride a schema:Movie ;
+    rdfs:label "Along for the Ride" ;
+    schema:actor sw:Belmont_Cameli,
+        sw:Emma_Pasarow,
+        sw:Laura_Kariuki ;
+    schema:datePublished "2022-05-06"^^xsd:date ;
+    schema:director sw:Sofia_Alvarez ;
+    schema:duration "PT1H46M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Romance" ;
+    schema:image sw:image24 ;
+    schema:name "Along for the Ride" .
+
+sw:Ambulance a schema:Movie ;
+    rdfs:label "Ambulance" ;
+    schema:actor sw:Eiza_González,
+        sw:Jake_Gyllenhaal,
+        sw:Yahya_Abdul-Mateen_II ;
+    schema:datePublished "2022-03-17"^^xsd:date ;
+    schema:director sw:Michael_Bay ;
+    schema:duration "PT2H16M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image28 ;
+    schema:name "Ambulance" .
+
+sw:American_Psycho a schema:Movie ;
+    rdfs:label "American Psycho" ;
+    schema:actor sw:Christian_Bale,
+        sw:Josh_Lucas,
+        sw:Justin_Theroux ;
+    schema:datePublished "2000-08-24"^^xsd:date ;
+    schema:director sw:Mary_Harron ;
+    schema:duration "PT1H42M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Drama",
+        "Horror" ;
+    schema:image sw:image84 ;
+    schema:name "American Psycho" .
+
+sw:Aquaman a schema:Movie ;
+    rdfs:label "Aquaman" ;
+    schema:actor sw:Amber_Heard,
+        sw:Jason_Momoa,
+        sw:Willem_Dafoe ;
+    schema:datePublished "2018-12-13"^^xsd:date ;
+    schema:director sw:James_Wan ;
+    schema:duration "PT2H23M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image34 ;
+    schema:name "Aquaman" .
+
+sw:Avatar a schema:Movie ;
+    rdfs:label "Avatar" ;
+    schema:actor sw:Sam_Worthington,
+        sw:Sigourney_Weaver,
+        sw:Zoe_Saldana ;
+    schema:datePublished "2010-01-01"^^xsd:date ;
+    schema:director sw:James_Cameron ;
+    schema:duration "PT2H42M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image18 ;
+    schema:name "Avatar" .
+
+sw:Avatar_The_Way_of_Water a schema:Movie ;
+    rdfs:label "Avatar The Way of Water" ;
+    schema:actor sw:Michelle_Yeoh,
+        sw:Sam_Worthington,
+        sw:Zoe_Saldana ;
+    schema:datePublished "2022-12-15"^^xsd:date ;
+    schema:director sw:James_Cameron ;
+    schema:genre "Action",
+        "Adventure",
+        "Sci-Fi" ;
+    schema:image sw:image1 ;
+    schema:name "Avatar The Way of Water" .
+
+sw:Avengers_Endgame a schema:Movie ;
+    rdfs:label "Avengers Endgame" ;
+    schema:actor sw:Chris_Evans,
+        sw:Mark_Ruffalo,
+        <http://www.semanticweb.org/Robert_Downey_Jr.> ;
+    schema:datePublished "2019-04-25"^^xsd:date ;
+    schema:director sw:Anthony_Russo,
+        sw:Joe_Russo ;
+    schema:duration "PT3H1M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Drama" ;
+    schema:image sw:image47 ;
+    schema:name "Avengers Endgame" .
+
+sw:Avengers_Infinity_War a schema:Movie ;
+    rdfs:label "Avengers Infinity War" ;
+    schema:actor sw:Chris_Hemsworth,
+        sw:Mark_Ruffalo,
+        <http://www.semanticweb.org/Robert_Downey_Jr.> ;
+    schema:datePublished "2018-04-26"^^xsd:date ;
+    schema:director sw:Anthony_Russo,
+        sw:Joe_Russo ;
+    schema:duration "PT2H29M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Sci-Fi" ;
+    schema:image sw:image97 ;
+    schema:name "Avengers Infinity War" .
+
+sw:CODA a schema:Movie ;
+    rdfs:label "CODA" ;
+    schema:actor sw:Emilia_Jones,
+        sw:Marlee_Matlin,
+        sw:Troy_Kotsur ;
+    schema:datePublished "2021-10-21"^^xsd:date ;
+    schema:director sw:Sian_Heder ;
+    schema:duration "PT1H51M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama",
+        "Music" ;
+    schema:image sw:image58 ;
+    schema:name "CODA" .
+
+sw:Crimes_of_the_Future a schema:Movie ;
+    rdfs:label "Crimes of the Future" ;
+    schema:actor sw:Kristen_Stewart,
+        sw:Léa_Seydoux,
+        sw:Viggo_Mortensen ;
+    schema:datePublished "2022-06-02"^^xsd:date ;
+    schema:director sw:David_Cronenberg ;
+    schema:duration "PT1H47M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Horror",
+        "Sci-Fi" ;
+    schema:image sw:image52 ;
+    schema:name "Crimes of the Future" .
+
+sw:Dear_Evan_Hansen a schema:Movie ;
+    rdfs:label "Dear Evan Hansen" ;
+    schema:actor sw:Ben_Platt,
+        sw:Julianne_Moore,
+        sw:Kaitlyn_Dever ;
+    schema:datePublished "2021-09-24"^^xsd:date ;
+    schema:director sw:Stephen_Chbosky ;
+    schema:duration "PT2H17M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Musical" ;
+    schema:image sw:image55 ;
+    schema:name "Dear Evan Hansen" .
+
+sw:Death_on_the_Nile a schema:Movie ;
+    rdfs:label "Death on the Nile" ;
+    schema:actor sw:Annette_Bening,
+        sw:Kenneth_Branagh,
+        sw:Tom_Bateman ;
+    schema:datePublished "2022-02-10"^^xsd:date ;
+    schema:director sw:Kenneth_Branagh ;
+    schema:duration "PT2H7M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Drama",
+        "Mystery" ;
+    schema:image sw:image19 ;
+    schema:name "Death on the Nile" .
+
+sw:Deep_Water a schema:Movie ;
+    rdfs:label "Deep Water" ;
+    schema:actor sw:Ana_de_Armas,
+        sw:Ben_Affleck,
+        sw:Tracy_Letts ;
+    schema:datePublished "2022-03-18"^^xsd:date ;
+    schema:director sw:Adrian_Lyne ;
+    schema:duration "PT1H55M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Mystery",
+        "Thriller" ;
+    schema:image sw:image79 ;
+    schema:name "Deep Water" .
+
+sw:Doctor_Sleep a schema:Movie ;
+    rdfs:label "Doctor Sleep" ;
+    schema:actor sw:Ewan_McGregor,
+        sw:Kyliegh_Curran,
+        sw:Rebecca_Ferguson ;
+    schema:datePublished "2019-11-07"^^xsd:date ;
+    schema:director sw:Mike_Flanagan ;
+    schema:duration "PT2H32M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Fantasy",
+        "Horror" ;
+    schema:image sw:image85 ;
+    schema:name "Doctor Sleep" .
+
+sw:Doctor_Strange a schema:Movie ;
+    rdfs:label "Doctor Strange" ;
+    schema:actor sw:Benedict_Cumberbatch,
+        sw:Chiwetel_Ejiofor,
+        sw:Rachel_McAdams ;
+    schema:datePublished "2016-11-24"^^xsd:date ;
+    schema:director sw:Scott_Derrickson ;
+    schema:duration "PT1H55M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image12 ;
+    schema:name "Doctor Strange" .
+
+sw:Doctor_Strange_in_the_Multiverse_of_Madness a schema:Movie ;
+    rdfs:label "Doctor Strange in the Multiverse of Madness" ;
+    schema:actor sw:Benedict_Cumberbatch,
+        sw:Chiwetel_Ejiofor,
+        sw:Elizabeth_Olsen ;
+    schema:datePublished "2022-05-05"^^xsd:date ;
+    schema:director sw:Sam_Raimi ;
+    schema:duration "PT2H6M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image0 ;
+    schema:name "Doctor Strange in the Multiverse of Madness" .
+
+sw:Dog a schema:Movie ;
+    rdfs:label "Dog" ;
+    schema:actor sw:Aavi_Haas,
+        sw:Channing_Tatum,
+        sw:Ryder_McLaughlin ;
+    schema:datePublished "2022-02-18"^^xsd:date ;
+    schema:director sw:Channing_Tatum,
+        sw:Reid_Carolin ;
+    schema:duration "PT1H41M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama" ;
+    schema:image sw:image92 ;
+    schema:name "Dog" .
+
+<http://www.semanticweb.org/Don&apos;t_Look_Up> a schema:Movie ;
+    rdfs:label "Don&apos;t Look Up" ;
+    schema:actor sw:Jennifer_Lawrence,
+        sw:Leonardo_DiCaprio,
+        sw:Meryl_Streep ;
+    schema:datePublished "2021-12-24"^^xsd:date ;
+    schema:director sw:Adam_McKay ;
+    schema:duration "PT2H18M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama",
+        "Sci-Fi" ;
+    schema:image sw:image99 ;
+    schema:name "Don&apos;t Look Up" .
+
+<http://www.semanticweb.org/Don&apos;t_Worry_Darling> a schema:Movie ;
+    rdfs:label "Don&apos;t Worry Darling" ;
+    schema:actor sw:Florence_Pugh,
+        sw:Olivia_Wilde,
+        sw:Timothy_Simons ;
+    schema:datePublished "2022-09-22"^^xsd:date ;
+    schema:director sw:Olivia_Wilde ;
+    schema:genre "Thriller" ;
+    schema:image sw:image37 ;
+    schema:name "Don&apos;t Worry Darling" .
+
+sw:Downton_Abbey_A_New_Era a schema:Movie ;
+    rdfs:label "Downton Abbey A New Era" ;
+    schema:actor sw:Hugh_Bonneville,
+        sw:Jim_Carter,
+        sw:Michelle_Dockery ;
+    schema:datePublished "2022-04-28"^^xsd:date ;
+    schema:director sw:Simon_Curtis ;
+    schema:duration "PT2H5M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Romance" ;
+    schema:image sw:image30 ;
+    schema:name "Downton Abbey A New Era" .
+
+sw:Dune_Part_One a schema:Movie ;
+    rdfs:label "Dune Part One" ;
+    schema:actor sw:Rebecca_Ferguson,
+        sw:Timothée_Chalamet,
+        sw:Zendaya ;
+    schema:datePublished "2021-10-21"^^xsd:date ;
+    schema:director sw:Denis_Villeneuve ;
+    schema:duration "PT2H35M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Drama" ;
+    schema:image sw:image29 ;
+    schema:name "Dune Part One" .
+
+sw:Elvis a schema:Movie ;
+    rdfs:label "Elvis" ;
+    schema:actor sw:Austin_Butler,
+        sw:Olivia_DeJonge,
+        sw:Tom_Hanks ;
+    schema:datePublished "2022-06-24"^^xsd:date ;
+    schema:director sw:Baz_Luhrmann ;
+    schema:duration "PT2H39M"^^xsd:duration ;
+    schema:genre "Biography",
+        "Drama",
+        "Music" ;
+    schema:image sw:image51 ;
+    schema:name "Elvis" .
+
+sw:Eternals a schema:Movie ;
+    rdfs:label "Eternals" ;
+    schema:actor sw:Angelina_Jolie,
+        sw:Gemma_Chan,
+        sw:Richard_Madden ;
+    schema:datePublished "2021-11-04"^^xsd:date ;
+    schema:director sw:Chloé_Zhao ;
+    schema:duration "PT2H36M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image40 ;
+    schema:name "Eternals" .
+
+sw:Everything_Everywhere_All_at_Once a schema:Movie ;
+    rdfs:label "Everything Everywhere All at Once" ;
+    schema:actor sw:Ke_Huy_Quan,
+        sw:Michelle_Yeoh,
+        sw:Stephanie_Hsu ;
+    schema:datePublished "2022-03-25"^^xsd:date ;
+    schema:director sw:Dan_Kwan,
+        sw:Daniel_Scheinert ;
+    schema:duration "PT2H19M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image5 ;
+    schema:name "Everything Everywhere All at Once" .
+
+sw:Fantastic_Beasts_The_Crimes_of_Grindelwald a schema:Movie ;
+    rdfs:label "Fantastic Beasts The Crimes of Grindelwald" ;
+    schema:actor sw:Dan_Fogler,
+        sw:Eddie_Redmayne,
+        sw:Katherine_Waterston ;
+    schema:datePublished "2018-11-15"^^xsd:date ;
+    schema:director sw:David_Yates ;
+    schema:duration "PT2H14M"^^xsd:duration ;
+    schema:genre "Adventure",
+        "Family",
+        "Fantasy" ;
+    schema:image sw:image77 ;
+    schema:name "Fantastic Beasts The Crimes of Grindelwald" .
+
+sw:Fantastic_Beasts_The_Secrets_of_Dumbledore a schema:Movie ;
+    rdfs:label "Fantastic Beasts The Secrets of Dumbledore" ;
+    schema:actor sw:Eddie_Redmayne,
+        sw:Ezra_Miller,
+        sw:Jude_Law ;
+    schema:datePublished "2022-04-15"^^xsd:date ;
+    schema:director sw:David_Yates ;
+    schema:duration "PT2H22M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image14 ;
+    schema:name "Fantastic Beasts The Secrets of Dumbledore" .
+
+sw:Father_Stu a schema:Movie ;
+    rdfs:label "Father Stu" ;
+    schema:actor sw:Malcolm_McDowell,
+        sw:Mark_Wahlberg,
+        sw:Mel_Gibson ;
+    schema:datePublished "2022-04-15"^^xsd:date ;
+    schema:director sw:Rosalind_Ross ;
+    schema:duration "PT2H4M"^^xsd:duration ;
+    schema:genre "Biography",
+        "Drama" ;
+    schema:image sw:image87 ;
+    schema:name "Father Stu" .
+
+sw:Father_of_the_Bride a schema:Movie ;
+    rdfs:label "Father of the Bride" ;
+    schema:actor sw:Adria_Arjona,
+        sw:Andy_Garcia,
+        sw:Isabela_Merced ;
+    schema:datePublished "2022-06-16"^^xsd:date ;
+    schema:director sw:Gary_Alazraki ;
+    schema:genre "Comedy",
+        "Drama",
+        "Fantasy" ;
+    schema:image sw:image36 ;
+    schema:name "Father of the Bride" .
+
+sw:Firestarter a schema:Movie ;
+    rdfs:label "Firestarter" ;
+    schema:actor sw:David_Keith,
+        sw:Drew_Barrymore,
+        sw:Freddie_Jones,
+        sw:Ryan_Kiera_Armstrong,
+        sw:Sydney_Lemmon,
+        sw:Zac_Efron ;
+    schema:datePublished "1984-07-26"^^xsd:date,
+        "2022-05-12"^^xsd:date ;
+    schema:director sw:Keith_Thomas,
+        sw:Mark_L._Lester ;
+    schema:duration "PT1H34M"^^xsd:duration,
+        "PT1H54M"^^xsd:duration ;
+    schema:genre "Action",
+        "Drama",
+        "Horror",
+        "Sci-Fi" ;
+    schema:image sw:image56,
+        sw:image7 ;
+    schema:name "Firestarter" .
+
+sw:Forrest_Gump a schema:Movie ;
+    rdfs:label "Forrest Gump" ;
+    schema:actor sw:Gary_Sinise,
+        sw:Robin_Wright,
+        sw:Tom_Hanks ;
+    schema:datePublished "1994-10-06"^^xsd:date ;
+    schema:director sw:Robert_Zemeckis ;
+    schema:duration "PT2H22M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Romance" ;
+    schema:image sw:image80 ;
+    schema:name "Forrest Gump" .
+
+sw:Free_Guy a schema:Movie ;
+    rdfs:label "Free Guy" ;
+    schema:actor sw:Jodie_Comer,
+        sw:Ryan_Reynolds,
+        sw:Taika_Waititi ;
+    schema:datePublished "2021-08-12"^^xsd:date ;
+    schema:director sw:Shawn_Levy ;
+    schema:duration "PT1H55M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image78 ;
+    schema:name "Free Guy" .
+
+sw:Gangubai_Kathiawadi a schema:Movie ;
+    rdfs:label "Gangubai Kathiawadi" ;
+    schema:actor sw:Alia_Bhatt,
+        sw:Shantanu_Maheshwari,
+        sw:Vijay_Raaz ;
+    schema:datePublished "2022-02-25"^^xsd:date ;
+    schema:director sw:Sanjay_Leela_Bhansali ;
+    schema:duration "PT2H32M"^^xsd:duration ;
+    schema:genre "Biography",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image69 ;
+    schema:name "Gangubai Kathiawadi" .
+
+sw:Ghostbusters_Afterlife a schema:Movie ;
+    rdfs:label "Ghostbusters Afterlife" ;
+    schema:actor sw:Carrie_Coon,
+        sw:Finn_Wolfhard,
+        sw:Paul_Rudd ;
+    schema:datePublished "2021-11-18"^^xsd:date ;
+    schema:director sw:Jason_Reitman ;
+    schema:duration "PT2H4M"^^xsd:duration ;
+    schema:genre "Adventure",
+        "Comedy",
+        "Fantasy" ;
+    schema:image sw:image48 ;
+    schema:name "Ghostbusters Afterlife" .
+
+sw:Happy_Gilmore a schema:Movie ;
+    rdfs:label "Happy Gilmore" ;
+    schema:actor sw:Adam_Sandler,
+        sw:Christopher_McDonald,
+        sw:Julie_Bowen ;
+    schema:datePublished "1996-02-16"^^xsd:date ;
+    schema:director sw:Dennis_Dugan ;
+    schema:duration "PT1H32M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Sport" ;
+    schema:image sw:image94 ;
+    schema:name "Happy Gilmore" .
+
+sw:House_of_Gucci a schema:Movie ;
+    rdfs:label "House of Gucci" ;
+    schema:actor sw:Adam_Driver,
+        sw:Al_Pacino,
+        sw:Lady_Gaga ;
+    schema:datePublished "2021-11-25"^^xsd:date ;
+    schema:director sw:Ridley_Scott ;
+    schema:duration "PT2H38M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Drama" ;
+    schema:image sw:image93 ;
+    schema:name "House of Gucci" .
+
+sw:Hustle a schema:Movie ;
+    rdfs:label "Hustle" ;
+    schema:actor sw:Adam_Sandler,
+        sw:Andrea_Sooch,
+        sw:Ben_Foster ;
+    schema:datePublished "2022-06-08"^^xsd:date ;
+    schema:director sw:Jeremiah_Zagar ;
+    schema:genre "Comedy",
+        "Drama",
+        "Sport" ;
+    schema:image sw:image41 ;
+    schema:name "Hustle" .
+
+sw:Jurassic_World_Dominion a schema:Movie ;
+    rdfs:label "Jurassic World Dominion" ;
+    schema:actor sw:Bryce_Dallas_Howard,
+        sw:Chris_Pratt,
+        sw:Laura_Dern ;
+    schema:datePublished "2022-06-09"^^xsd:date ;
+    schema:director sw:Colin_Trevorrow ;
+    schema:duration "PT2H26M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Sci-Fi" ;
+    schema:image sw:image32 ;
+    schema:name "Jurassic World Dominion" .
+
+sw:K.G.F_Chapter_2 a schema:Movie ;
+    rdfs:label "K.G.F Chapter 2" ;
+    schema:actor sw:Sanjay_Dutt,
+        sw:Srinidhi_Shetty,
+        sw:Yash ;
+    schema:datePublished "2022-04-14"^^xsd:date ;
+    schema:director sw:Prashanth_Neel ;
+    schema:duration "PT2H48M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image35 ;
+    schema:name "K.G.F Chapter 2" .
+
+sw:Ku_bei a schema:Movie ;
+    rdfs:label "Ku bei" ;
+    schema:actor sw:Berant_Zhu,
+        sw:Regina_Lei,
+        sw:Ying-Ru_Chen ;
+    schema:datePublished "2021-01-22"^^xsd:date ;
+    schema:director sw:Rob_Jabbaz ;
+    schema:duration "PT1H39M"^^xsd:duration ;
+    schema:genre "Horror" ;
+    schema:image sw:image82 ;
+    schema:name "Ku bei" .
+
+sw:Licorice_Pizza a schema:Movie ;
+    rdfs:label "Licorice Pizza" ;
+    schema:actor sw:Alana_Haim,
+        sw:Cooper_Hoffman,
+        sw:Sean_Penn ;
+    schema:datePublished "2022-01-27"^^xsd:date ;
+    schema:director sw:Paul_Thomas_Anderson ;
+    schema:duration "PT2H13M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama",
+        "Romance" ;
+    schema:image sw:image74 ;
+    schema:name "Licorice Pizza" .
+
+sw:Loin_du_périph a schema:Movie ;
+    rdfs:label "Loin du périph" ;
+    schema:actor sw:Izïa_Higelin,
+        sw:Laurent_Lafitte,
+        sw:Omar_Sy ;
+    schema:datePublished "2022-05-06"^^xsd:date ;
+    schema:director sw:Louis_Leterrier ;
+    schema:duration "PT1H59M"^^xsd:duration ;
+    schema:genre "Action",
+        "Comedy",
+        "Crime" ;
+    schema:image sw:image27 ;
+    schema:name "Loin du périph" .
+
+sw:London_Fields a schema:Movie ;
+    rdfs:label "London Fields" ;
+    schema:actor sw:Amber_Heard,
+        sw:Jason_Isaacs,
+        sw:Theo_James ;
+    schema:datePublished "2018-10-26"^^xsd:date ;
+    schema:director sw:Mathew_Cullen ;
+    schema:duration "PT1H58M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Mystery",
+        "Thriller" ;
+    schema:image sw:image90 ;
+    schema:name "London Fields" .
+
+sw:Love a schema:Movie ;
+    rdfs:label "Love" ;
+    schema:actor sw:Aomi_Muyock,
+        sw:Karl_Glusman,
+        sw:Klara_Kristin ;
+    schema:datePublished "2015-07-15"^^xsd:date ;
+    schema:director sw:Gaspar_Noé ;
+    schema:duration "PT2H15M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Romance" ;
+    schema:image sw:image68 ;
+    schema:name "Love" .
+
+sw:Memory a schema:Movie ;
+    rdfs:label "Memory" ;
+    schema:actor sw:Guy_Pearce,
+        sw:Liam_Neeson,
+        sw:Monica_Bellucci ;
+    schema:datePublished "2022-05-19"^^xsd:date ;
+    schema:director sw:Martin_Campbell ;
+    schema:duration "PT1H54M"^^xsd:duration ;
+    schema:genre "Action",
+        "Thriller" ;
+    schema:image sw:image57 ;
+    schema:name "Memory" .
+
+sw:Men a schema:Movie ;
+    rdfs:label "Men" ;
+    schema:actor sw:Jessie_Buckley,
+        sw:Paapa_Essiedu,
+        sw:Rory_Kinnear ;
+    schema:datePublished "2022-06-01"^^xsd:date ;
+    schema:director sw:Alex_Garland ;
+    schema:duration "PT1H40M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Horror",
+        "Sci-Fi" ;
+    schema:image sw:image49 ;
+    schema:name "Men" .
+
+sw:Metal_Lords a schema:Movie ;
+    rdfs:label "Metal Lords" ;
+    schema:actor sw:Adrian_Greensmith,
+        sw:Isis_Hainsworth,
+        sw:Jaeden_Martell ;
+    schema:datePublished "2022-04-08"^^xsd:date ;
+    schema:director sw:Peter_Sollett ;
+    schema:duration "PT1H37M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Music" ;
+    schema:image sw:image98 ;
+    schema:name "Metal Lords" .
+
+sw:Moonfall a schema:Movie ;
+    rdfs:label "Moonfall" ;
+    schema:actor sw:Halle_Berry,
+        sw:John_Bradley,
+        sw:Patrick_Wilson ;
+    schema:datePublished "2022-02-03"^^xsd:date ;
+    schema:director sw:Roland_Emmerich ;
+    schema:duration "PT2H10M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Sci-Fi" ;
+    schema:image sw:image43 ;
+    schema:name "Moonfall" .
+
+sw:Nightmare_Alley a schema:Movie ;
+    rdfs:label "Nightmare Alley" ;
+    schema:actor sw:Bradley_Cooper,
+        sw:Cate_Blanchett,
+        sw:Toni_Collette ;
+    schema:datePublished "2022-01-27"^^xsd:date ;
+    schema:director sw:Guillermo_del_Toro ;
+    schema:duration "PT2H30M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Drama",
+        "Thriller" ;
+    schema:image sw:image76 ;
+    schema:name "Nightmare Alley" .
+
+sw:No_Time_to_Die a schema:Movie ;
+    rdfs:label "No Time to Die" ;
+    schema:actor sw:Ana_de_Armas,
+        sw:Daniel_Craig,
+        sw:Rami_Malek ;
+    schema:datePublished "2021-09-30"^^xsd:date ;
+    schema:director sw:Cary_Joji_Fukunaga ;
+    schema:duration "PT2H43M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Thriller" ;
+    schema:image sw:image50 ;
+    schema:name "No Time to Die" .
+
+sw:Old a schema:Movie ;
+    rdfs:label "Old" ;
+    schema:actor sw:Gael_García_Bernal,
+        sw:Rufus_Sewell,
+        sw:Vicky_Krieps ;
+    schema:datePublished "2021-07-29"^^xsd:date ;
+    schema:director sw:M._Night_Shyamalan ;
+    schema:duration "PT1H48M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Horror",
+        "Mystery" ;
+    schema:image sw:image61 ;
+    schema:name "Old" .
+
+sw:Once_Upon_a_Time_in..._Hollywood a schema:Movie ;
+    rdfs:label "Once Upon a Time in... Hollywood" ;
+    schema:actor sw:Brad_Pitt,
+        sw:Leonardo_DiCaprio,
+        sw:Margot_Robbie ;
+    schema:datePublished "2019-08-22"^^xsd:date ;
+    schema:director sw:Quentin_Tarantino ;
+    schema:duration "PT2H41M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama" ;
+    schema:image sw:image75 ;
+    schema:name "Once Upon a Time in... Hollywood" .
+
+sw:Operation_Mincemeat a schema:Movie ;
+    rdfs:label "Operation Mincemeat" ;
+    schema:actor sw:Colin_Firth,
+        sw:Kelly_Macdonald,
+        sw:Matthew_Macfadyen ;
+    schema:datePublished "2022-05-11"^^xsd:date ;
+    schema:director sw:John_Madden ;
+    schema:duration "PT2H8M"^^xsd:duration ;
+    schema:genre "Drama",
+        "War" ;
+    schema:image sw:image9 ;
+    schema:name "Operation Mincemeat" .
+
+sw:Our_Father a schema:Movie ;
+    rdfs:label "Our Father" ;
+    schema:actor sw:Debbie_Pierce,
+        sw:Donald_Cline,
+        sw:Jacoba_Ballard ;
+    schema:datePublished "2022-05-11"^^xsd:date ;
+    schema:director sw:Lucie_Jourdan ;
+    schema:duration "PT1H37M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Documentary" ;
+    schema:image sw:image39 ;
+    schema:name "Our Father" .
+
+sw:Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales a schema:Movie ;
+    rdfs:label "Pirates of the Caribbean Dead Men Tell No Tales" ;
+    schema:actor sw:Geoffrey_Rush,
+        sw:Javier_Bardem,
+        sw:Johnny_Depp ;
+    schema:datePublished "2017-05-25"^^xsd:date ;
+    schema:director sw:Espen_Sandberg,
+        sw:Joachim_Rønning ;
+    schema:duration "PT2H9M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image72 ;
+    schema:name "Pirates of the Caribbean Dead Men Tell No Tales" .
+
+sw:Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pearl a schema:Movie ;
+    rdfs:label "Pirates of the Caribbean The Curse of the Black Pearl" ;
+    schema:actor sw:Geoffrey_Rush,
+        sw:Johnny_Depp,
+        sw:Orlando_Bloom ;
+    schema:datePublished "2003-07-17"^^xsd:date ;
+    schema:director sw:Gore_Verbinski ;
+    schema:duration "PT2H23M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image38 ;
+    schema:name "Pirates of the Caribbean The Curse of the Black Pearl" .
+
+sw:Pleasure a schema:Movie ;
+    rdfs:label "Pleasure" ;
+    schema:actor sw:Evelyn_Claire,
+        sw:Sofia_Kappel,
+        sw:Zelda_Morrison ;
+    schema:datePublished "2021-10-08"^^xsd:date ;
+    schema:director sw:Ninja_Thyberg ;
+    schema:duration "PT1H49M"^^xsd:duration ;
+    schema:genre "Drama" ;
+    schema:image sw:image45 ;
+    schema:name "Pleasure" .
+
+sw:Runway_34 a schema:Movie ;
+    rdfs:label "Runway 34" ;
+    schema:actor sw:Ajay_Devgn,
+        sw:Amitabh_Bachchan,
+        sw:Rakul_Preet_Singh ;
+    schema:datePublished "2022-04-29"^^xsd:date ;
+    schema:director sw:Ajay_Devgn ;
+    schema:duration "PT2H25M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Thriller" ;
+    schema:image sw:image89 ;
+    schema:name "Runway 34" .
+
+sw:Scream a schema:Movie ;
+    rdfs:label "Scream" ;
+    schema:actor sw:Courteney_Cox,
+        sw:David_Arquette,
+        sw:Neve_Campbell ;
+    schema:datePublished "2022-01-13"^^xsd:date ;
+    schema:director sw:Matt_Bettinelli-Olpin,
+        sw:Tyler_Gillett ;
+    schema:duration "PT1H54M"^^xsd:duration ;
+    schema:genre "Horror",
+        "Mystery",
+        "Thriller" ;
+    schema:image sw:image67 ;
+    schema:name "Scream" .
+
+sw:Senior_Year a schema:Movie ;
+    rdfs:label "Senior Year" ;
+    schema:actor sw:Angourie_Rice,
+        sw:Mary_Holland,
+        sw:Rebel_Wilson ;
+    schema:datePublished "2022-05-13"^^xsd:date ;
+    schema:director sw:Alex_Hardcastle ;
+    schema:duration "PT1H51M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama" ;
+    schema:image sw:image8 ;
+    schema:name "Senior Year" .
+
+sw:Shang-Chi_and_the_Legend_of_the_Ten_Rings a schema:Movie ;
+    rdfs:label "Shang-Chi and the Legend of the Ten Rings" ;
+    schema:actor sw:Awkwafina,
+        sw:Simu_Liu,
+        sw:Tony_Chiu-Wai_Leung ;
+    schema:datePublished "2021-09-02"^^xsd:date ;
+    schema:director sw:Destin_Daniel_Cretton ;
+    schema:duration "PT2H12M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image95 ;
+    schema:name "Shang-Chi and the Legend of the Ten Rings" .
+
+sw:Sonic_the_Hedgehog a schema:Movie ;
+    rdfs:label "Sonic the Hedgehog" ;
+    schema:actor sw:Ben_Schwartz,
+        sw:James_Marsden,
+        sw:Jim_Carrey ;
+    schema:datePublished "2020-02-13"^^xsd:date ;
+    schema:director sw:Jeff_Fowler ;
+    schema:duration "PT1H39M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image81 ;
+    schema:name "Sonic the Hedgehog" .
+
+sw:Sonic_the_Hedgehog_2 a schema:Movie ;
+    rdfs:label "Sonic the Hedgehog 2" ;
+    schema:actor sw:Ben_Schwartz,
+        sw:James_Marsden,
+        sw:Jim_Carrey ;
+    schema:datePublished "2022-04-07"^^xsd:date ;
+    schema:director sw:Jeff_Fowler ;
+    schema:duration "PT2H2M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image22 ;
+    schema:name "Sonic the Hedgehog 2" .
+
+sw:Spider-Man_No_Way_Home a schema:Movie ;
+    rdfs:label "Spider-Man No Way Home" ;
+    schema:actor sw:Benedict_Cumberbatch,
+        sw:Tom_Holland,
+        sw:Zendaya ;
+    schema:datePublished "2021-12-16"^^xsd:date ;
+    schema:director sw:Jon_Watts ;
+    schema:duration "PT2H28M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image17 ;
+    schema:name "Spider-Man No Way Home" .
+
+sw:Thar a schema:Movie ;
+    rdfs:label "Thar" ;
+    schema:actor sw:Anil_Kapoor,
+        sw:Fatima_Sana_Shaikh,
+        sw:Harshvardhan_Kapoor ;
+    schema:datePublished "2022-05-06"^^xsd:date ;
+    schema:director sw:Raj_Singh_Chaudhary ;
+    schema:duration "PT1H48M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image33 ;
+    schema:name "Thar" .
+
+sw:The_Adam_Project a schema:Movie ;
+    rdfs:label "The Adam Project" ;
+    schema:actor sw:Mark_Ruffalo,
+        sw:Ryan_Reynolds,
+        sw:Walker_Scobell ;
+    schema:datePublished "2022-03-11"^^xsd:date ;
+    schema:director sw:Shawn_Levy ;
+    schema:duration "PT1H46M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image53 ;
+    schema:name "The Adam Project" .
+
+sw:The_Bad_Guys a schema:Movie ;
+    rdfs:label "The Bad Guys" ;
+    schema:actor sw:Awkwafina,
+        sw:Marc_Maron,
+        sw:Sam_Rockwell ;
+    schema:datePublished "2022-03-17"^^xsd:date ;
+    schema:director sw:Pierre_Perifel ;
+    schema:duration "PT1H40M"^^xsd:duration ;
+    schema:genre "Adventure",
+        "Animation",
+        "Comedy" ;
+    schema:image sw:image16 ;
+    schema:name "The Bad Guys" .
+
+sw:The_Batman a schema:Movie ;
+    rdfs:label "The Batman" ;
+    schema:actor sw:Jeffrey_Wright,
+        sw:Robert_Pattinson,
+        sw:Zoë_Kravitz ;
+    schema:datePublished "2022-03-03"^^xsd:date ;
+    schema:director sw:Matt_Reeves ;
+    schema:duration "PT2H56M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image3 ;
+    schema:name "The Batman" .
+
+sw:The_Black_Phone a schema:Movie ;
+    rdfs:label "The Black Phone" ;
+    schema:actor sw:Ethan_Hawke,
+        sw:James_Ransone,
+        sw:Jeremy_Davies ;
+    schema:director sw:Scott_Derrickson ;
+    schema:duration "PT1H42M"^^xsd:duration ;
+    schema:genre "Horror" ;
+    schema:image sw:image66 ;
+    schema:name "The Black Phone" .
+
+sw:The_Contractor a schema:Movie ;
+    rdfs:label "The Contractor" ;
+    schema:actor sw:Chris_Pine,
+        sw:Gillian_Jacobs,
+        sw:Sander_Thomas ;
+    schema:datePublished "2022-04-01"^^xsd:date ;
+    schema:director sw:Tarik_Saleh ;
+    schema:duration "PT1H43M"^^xsd:duration ;
+    schema:genre "Action",
+        "Thriller" ;
+    schema:image sw:image70 ;
+    schema:name "The Contractor" .
+
+sw:The_Danish_Girl a schema:Movie ;
+    rdfs:label "The Danish Girl" ;
+    schema:actor sw:Alicia_Vikander,
+        sw:Amber_Heard,
+        sw:Eddie_Redmayne ;
+    schema:datePublished "2016-02-18"^^xsd:date ;
+    schema:director sw:Tom_Hooper ;
+    schema:duration "PT1H59M"^^xsd:duration ;
+    schema:genre "Biography",
+        "Drama",
+        "Romance" ;
+    schema:image sw:image96 ;
+    schema:name "The Danish Girl" .
+
+sw:The_Dark_Knight a schema:Movie ;
+    rdfs:label "The Dark Knight" ;
+    schema:actor sw:Aaron_Eckhart,
+        sw:Christian_Bale,
+        sw:Heath_Ledger ;
+    schema:datePublished "2008-07-17"^^xsd:date ;
+    schema:director sw:Christopher_Nolan ;
+    schema:duration "PT2H32M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image71 ;
+    schema:name "The Dark Knight" .
+
+sw:The_Evil_Dead a schema:Movie ;
+    rdfs:label "The Evil Dead" ;
+    schema:actor sw:Bruce_Campbell,
+        sw:Ellen_Sandweiss,
+        sw:Richard_DeManincor ;
+    schema:datePublished "1985-10-24"^^xsd:date ;
+    schema:director sw:Sam_Raimi ;
+    schema:duration "PT1H25M"^^xsd:duration ;
+    schema:genre "Horror" ;
+    schema:image sw:image91 ;
+    schema:name "The Evil Dead" .
+
+sw:The_Gentlemen a schema:Movie ;
+    rdfs:label "The Gentlemen" ;
+    schema:actor sw:Charlie_Hunnam,
+        sw:Matthew_McConaughey,
+        sw:Michelle_Dockery ;
+    schema:datePublished "2020-03-05"^^xsd:date ;
+    schema:director sw:Guy_Ritchie ;
+    schema:duration "PT1H53M"^^xsd:duration ;
+    schema:genre "Action",
+        "Comedy",
+        "Crime" ;
+    schema:image sw:image31 ;
+    schema:name "The Gentlemen" .
+
+sw:The_Godfather a schema:Movie ;
+    rdfs:label "The Godfather" ;
+    schema:actor sw:Al_Pacino,
+        sw:James_Caan,
+        sw:Marlon_Brando ;
+    schema:datePublished "1972-09-20"^^xsd:date ;
+    schema:director sw:Francis_Ford_Coppola ;
+    schema:duration "PT2H55M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Drama" ;
+    schema:image sw:image23 ;
+    schema:name "The Godfather" .
+
+sw:The_Gray_Man a schema:Movie ;
+    rdfs:label "The Gray Man" ;
+    schema:actor sw:Ana_de_Armas,
+        sw:Chris_Evans,
+        sw:Ryan_Gosling ;
+    schema:datePublished "2022-07-15"^^xsd:date ;
+    schema:director sw:Anthony_Russo,
+        sw:Joe_Russo ;
+    schema:genre "Action",
+        "Thriller" ;
+    schema:image sw:image64 ;
+    schema:name "The Gray Man" .
+
+<http://www.semanticweb.org/The_King&apos;s_Man> a schema:Movie ;
+    rdfs:label "The King&apos;s Man" ;
+    schema:actor sw:Gemma_Arterton,
+        sw:Ralph_Fiennes,
+        sw:Rhys_Ifans ;
+    schema:datePublished "2022-01-06"^^xsd:date ;
+    schema:director sw:Matthew_Vaughn ;
+    schema:duration "PT2H11M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Thriller" ;
+    schema:image sw:image63 ;
+    schema:name "The King&apos;s Man" .
+
+sw:The_Lost_City a schema:Movie ;
+    rdfs:label "The Lost City" ;
+    schema:actor sw:Channing_Tatum,
+        sw:Daniel_Radcliffe,
+        sw:Sandra_Bullock ;
+    schema:datePublished "2022-04-21"^^xsd:date ;
+    schema:director sw:Aaron_Nee,
+        sw:Adam_Nee ;
+    schema:duration "PT1H52M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image4 ;
+    schema:name "The Lost City" .
+
+sw:The_Matrix_Resurrections a schema:Movie ;
+    rdfs:label "The Matrix Resurrections" ;
+    schema:actor sw:Carrie-Anne_Moss,
+        sw:Keanu_Reeves,
+        sw:Yahya_Abdul-Mateen_II ;
+    schema:datePublished "2021-12-23"^^xsd:date ;
+    schema:director sw:Lana_Wachowski ;
+    schema:duration "PT2H28M"^^xsd:duration ;
+    schema:genre "Action",
+        "Sci-Fi" ;
+    schema:image sw:image73 ;
+    schema:name "The Matrix Resurrections" .
+
+sw:The_Northman a schema:Movie ;
+    rdfs:label "The Northman" ;
+    schema:actor sw:Alexander_Skarsgård,
+        sw:Claes_Bang,
+        sw:Nicole_Kidman ;
+    schema:datePublished "2022-04-21"^^xsd:date ;
+    schema:director sw:Robert_Eggers ;
+    schema:duration "PT2H17M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Drama" ;
+    schema:image sw:image2 ;
+    schema:name "The Northman" .
+
+sw:The_Outfit a schema:Movie ;
+    rdfs:label "The Outfit" ;
+    schema:actor <http://www.semanticweb.org/Dylan_O&apos;Brien>,
+        sw:Johnny_Flynn,
+        sw:Zoey_Deutch ;
+    schema:datePublished "2022-03-18"^^xsd:date ;
+    schema:director sw:Graham_Moore ;
+    schema:duration "PT1H45M"^^xsd:duration ;
+    schema:genre "Crime",
+        "Drama",
+        "Mystery" ;
+    schema:image sw:image44 ;
+    schema:name "The Outfit" .
+
+sw:The_Rum_Diary a schema:Movie ;
+    rdfs:label "The Rum Diary" ;
+    schema:actor sw:Aaron_Eckhart,
+        sw:Giovanni_Ribisi,
+        sw:Johnny_Depp ;
+    schema:datePublished "2012-04-19"^^xsd:date ;
+    schema:director sw:Bruce_Robinson ;
+    schema:duration "PT1H59M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama" ;
+    schema:image sw:image26 ;
+    schema:name "The Rum Diary" .
+
+sw:The_Shawshank_Redemption a schema:Movie ;
+    rdfs:label "The Shawshank Redemption" ;
+    schema:actor sw:Bob_Gunton,
+        sw:Morgan_Freeman,
+        sw:Tim_Robbins ;
+    schema:datePublished "1995-03-23"^^xsd:date ;
+    schema:director sw:Frank_Darabont ;
+    schema:duration "PT2H22M"^^xsd:duration ;
+    schema:genre "Drama" ;
+    schema:image sw:image54 ;
+    schema:name "The Shawshank Redemption" .
+
+sw:The_Suicide_Squad a schema:Movie ;
+    rdfs:label "The Suicide Squad" ;
+    schema:actor sw:Idris_Elba,
+        sw:John_Cena,
+        sw:Margot_Robbie ;
+    schema:datePublished "2021-08-05"^^xsd:date ;
+    schema:director sw:James_Gunn ;
+    schema:duration "PT2H12M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image62 ;
+    schema:name "The Suicide Squad" .
+
+sw:The_Unbearable_Weight_of_Massive_Talent a schema:Movie ;
+    rdfs:label "The Unbearable Weight of Massive Talent" ;
+    schema:actor sw:Nicolas_Cage,
+        sw:Pedro_Pascal,
+        sw:Tiffany_Haddish ;
+    schema:datePublished "2022-05-19"^^xsd:date ;
+    schema:director sw:Tom_Gormican ;
+    schema:duration "PT1H47M"^^xsd:duration ;
+    schema:genre "Action",
+        "Comedy",
+        "Crime" ;
+    schema:image sw:image25 ;
+    schema:name "The Unbearable Weight of Massive Talent" .
+
+sw:The_VVitch_A_New-England_Folktale a schema:Movie ;
+    rdfs:label "The VVitch A New-England Folktale" ;
+    schema:actor sw:Anya_Taylor-Joy,
+        sw:Kate_Dickie,
+        sw:Ralph_Ineson ;
+    schema:datePublished "2016-03-31"^^xsd:date ;
+    schema:director sw:Robert_Eggers ;
+    schema:duration "PT1H32M"^^xsd:duration ;
+    schema:genre "Drama",
+        "Fantasy",
+        "History" ;
+    schema:image sw:image88 ;
+    schema:name "The VVitch A New-England Folktale" .
+
+sw:Thor_Love_and_Thunder a schema:Movie ;
+    rdfs:label "Thor Love and Thunder" ;
+    schema:actor sw:Karen_Gillan,
+        sw:Natalie_Portman,
+        sw:Taika_Waititi ;
+    schema:datePublished "2022-07-08"^^xsd:date ;
+    schema:director sw:Taika_Waititi ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image20 ;
+    schema:name "Thor Love and Thunder" .
+
+sw:Top_Gun a schema:Movie ;
+    rdfs:label "Top Gun" ;
+    schema:actor sw:Kelly_McGillis,
+        sw:Tim_Robbins,
+        sw:Tom_Cruise ;
+    schema:datePublished "1986-06-26"^^xsd:date ;
+    schema:director sw:Tony_Scott ;
+    schema:duration "PT1H50M"^^xsd:duration ;
+    schema:genre "Action",
+        "Drama" ;
+    schema:image sw:image21 ;
+    schema:name "Top Gun" .
+
+sw:Top_Gun_Maverick a schema:Movie ;
+    rdfs:label "Top Gun Maverick" ;
+    schema:actor sw:Jennifer_Connelly,
+        sw:Miles_Teller,
+        sw:Tom_Cruise ;
+    schema:datePublished "2022-05-26"^^xsd:date ;
+    schema:director sw:Joseph_Kosinski ;
+    schema:duration "PT2H11M"^^xsd:duration ;
+    schema:genre "Action",
+        "Drama" ;
+    schema:image sw:image6 ;
+    schema:name "Top Gun Maverick" .
+
+sw:Turning_Red a schema:Movie ;
+    rdfs:label "Turning Red" ;
+    schema:actor sw:Ava_Morse,
+        sw:Rosalie_Chiang,
+        sw:Sandra_Oh ;
+    schema:datePublished "2022-03-11"^^xsd:date ;
+    schema:director sw:Domee_Shi ;
+    schema:duration "PT1H40M"^^xsd:duration ;
+    schema:genre "Adventure",
+        "Animation",
+        "Comedy" ;
+    schema:image sw:image59 ;
+    schema:name "Turning Red" .
+
+sw:U.S._Marshals a schema:Movie ;
+    rdfs:label "U.S. Marshals" ;
+    schema:actor <http://www.semanticweb.org/Robert_Downey_Jr.>,
+        sw:Tommy_Lee_Jones,
+        sw:Wesley_Snipes ;
+    schema:datePublished "1998-05-14"^^xsd:date ;
+    schema:director sw:Stuart_Baird ;
+    schema:duration "PT2H11M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Thriller" ;
+    schema:image sw:image65 ;
+    schema:name "U.S. Marshals" .
+
+sw:Uncharted a schema:Movie ;
+    rdfs:label "Uncharted" ;
+    schema:actor sw:Antonio_Banderas,
+        sw:Mark_Wahlberg,
+        sw:Tom_Holland ;
+    schema:datePublished "2022-02-17"^^xsd:date ;
+    schema:director sw:Ruben_Fleischer ;
+    schema:duration "PT1H56M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure" ;
+    schema:image sw:image11 ;
+    schema:name "Uncharted" .
+
+sw:Venom_Let_There_Be_Carnage a schema:Movie ;
+    rdfs:label "Venom Let There Be Carnage" ;
+    schema:actor sw:Michelle_Williams,
+        sw:Tom_Hardy,
+        sw:Woody_Harrelson ;
+    schema:datePublished "2021-10-07"^^xsd:date ;
+    schema:director sw:Andy_Serkis ;
+    schema:duration "PT1H37M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Sci-Fi" ;
+    schema:image sw:image86 ;
+    schema:name "Venom Let There Be Carnage" .
+
+sw:Wrath_of_Man a schema:Movie ;
+    rdfs:label "Wrath of Man" ;
+    schema:actor sw:Holt_McCallany,
+        sw:Jason_Statham,
+        sw:Josh_Hartnett ;
+    schema:datePublished "2021-08-26"^^xsd:date ;
+    schema:director sw:Guy_Ritchie ;
+    schema:duration "PT1H59M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Thriller" ;
+    schema:image sw:image83 ;
+    schema:name "Wrath of Man" .
+
+sw:X a schema:Movie ;
+    rdfs:label "X" ;
+    schema:actor sw:Brittany_Snow,
+        sw:Jenna_Ortega,
+        sw:Mia_Goth ;
+    schema:datePublished "2022-03-18"^^xsd:date ;
+    schema:director sw:Ti_West ;
+    schema:duration "PT1H45M"^^xsd:duration ;
+    schema:genre "Horror",
+        "Thriller" ;
+    schema:image sw:image15 ;
+    schema:name "X" .
+
+sw:screeningEvent0 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:30 - 18:45 - 20:45', 'JUEVES A MARTES SUBTITULADA:   22:45', 'MIÉRCOLES CASTELLANO:   20:45', 'MIÉRCOLES SUBTITULADA:   22:45']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Llamas_De_Venganza .
+
+sw:screeningEvent1 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES SUBTITULADA:   13:00 - 16:50 - 20:55', 'MIÉRCOLES SUBTITULADA:   22:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Un_Amor_Cerca_Del_Paraiso .
+
+sw:screeningEvent10 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:30 - 16:30', 'JUEVES A MARTES SUBTITULADA:   19:30 - 22:30', 'MIÉRCOLES SUBTITULADA:   20:00 - 22:45']" ;
+    schema:videoFormat "sala 4d+3d" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent11 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   19:45', 'MIÉRCOLES CASTELLANO:   20:10']" ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent12 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:45 - 16:45', 'JUEVES A MARTES SUBTITULADA:   22:45', 'MIÉRCOLES SUBTITULADA:   22:50']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent13 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00']" ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent14 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   18:05 - 22:50', 'JUEVES A MARTES SUBTITULADA:   15:30 - 20:40 - 23:15', 'MIÉRCOLES CASTELLANO:   22:50', 'MIÉRCOLES SUBTITULADA:   20:40 - 23:15']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent15 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:15', 'JUEVES A MARTES SUBTITULADA:   16:15 - 19:15 - 22:15', 'MIÉRCOLES SUBTITULADA:   20:00 - 23:00']" ;
+    schema:videoFormat "sala atmos hd" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent16 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   17:00']" ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent17 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   14:00 - 20:00 - 23:00', 'MIÉRCOLES CASTELLANO:   20:10 - 22:45']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+sw:screeningEvent18 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 20:50', 'MIÉRCOLES CASTELLANO:   20:50']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:El_Buen_Patrón .
+
+sw:screeningEvent19 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   23:10', 'MIÉRCOLES CASTELLANO:   23:10']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:El_Exorcismo_De_Dios .
+
+sw:screeningEvent2 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   20:15', 'MIÉRCOLES CASTELLANO:   20:15']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Competencia_Oficial .
+
+sw:screeningEvent20 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES SUBTITULADA:   17:10 - 20:25 - 23:10', 'MIÉRCOLES SUBTITULADA:   20:25 - 23:10']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:El_Hombre_Del_Norte .
+
+sw:screeningEvent21 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 19:10 - 23:15', 'MIÉRCOLES CASTELLANO:   20:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:En_La_Mira .
+
+sw:screeningEvent22 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:20 - 20:55', 'MIÉRCOLES CASTELLANO:   20:55']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Encanto .
+
+sw:screeningEvent23 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   23:10', 'MIÉRCOLES CASTELLANO:   23:10']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Jack_En_La_Caja_Maldita .
+
+sw:screeningEvent24 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 18:00 - 20:30', 'MIÉRCOLES CASTELLANO:   20:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:La_Ciudad_Perdida .
+
+sw:screeningEvent25 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 15:00']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Los_Tipos_Malos .
+
+sw:screeningEvent26 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   18:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Los_Tipos_Malos .
+
+sw:screeningEvent27 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   14:40']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sing_2 .
+
+sw:screeningEvent28 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   18:00']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sing_2 .
+
+sw:screeningEvent29 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 15:30 - 18:00']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sonic_2 .
+
+sw:screeningEvent3 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 23:15', 'MIÉRCOLES CASTELLANO:   23:15']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:El_Sistema_K.e.o.p.s .
+
+sw:screeningEvent30 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:30 - 16:00 - 20:35', 'MIÉRCOLES CASTELLANO:   20:35']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sonic_2 .
+
+sw:screeningEvent31 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:20 - 17:45']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sonic_2 .
+
+sw:screeningEvent32 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:20 - 15:45 - 18:10']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sonic_2 .
+
+sw:screeningEvent33 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:00 - 15:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Sonic_2 .
+
+sw:screeningEvent34 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   17:45']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Spiderman_Sin_Camino_A_Casa .
+
+sw:screeningEvent35 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Uncharted_Fuera_Del_Mapa .
+
+sw:screeningEvent4 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   20:15', 'MIÉRCOLES CASTELLANO:   20:15']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Morbius .
+
+sw:screeningEvent5 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   13:15 - 16:20 - 19:25 - 22:30', 'MIÉRCOLES CASTELLANO:   20:15 - 23:05']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Animales_Fantásticos_3__Los_Secretos_De_Dumbledore .
+
+sw:screeningEvent6 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:20 - 18:05 - 23:15', 'MIÉRCOLES CASTELLANO:   23:15']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Animales_Fantásticos_3__Los_Secretos_De_Dumbledore .
+
+sw:screeningEvent7 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES SUBTITULADA:   20:30 - 23:15', 'MIÉRCOLES SUBTITULADA:   20:30 - 23:15']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Animales_Fantásticos_3__Los_Secretos_De_Dumbledore .
+
+sw:screeningEvent8 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   15:30 - 22:30', 'MIÉRCOLES CASTELLANO:   22:30']" ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented sw:Batman .
+
+sw:screeningEvent9 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-18 ['JUEVES A MARTES CASTELLANO:   20:00', 'JUEVES A MARTES SUBTITULADA:   23:00', 'MIÉRCOLES CASTELLANO:   20:15', 'MIÉRCOLES SUBTITULADA:   23:00']" ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented sw:Doctor_Strange_En_El_Multiverso_De_La_Locura .
+
+xsd:date a rdfs:Datatype .
+
+schema:address a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( schema:MovieTheater schema:ScreeningEvent ) ] ;
+    rdfs:range xsd:string .
+
+schema:aggregateRating a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:AggregateRating .
+
+schema:contentUrl a owl:DatatypeProperty ;
+    rdfs:domain schema:ImageObject ;
+    rdfs:range xsd:string .
+
+schema:datePublished a owl:DatatypeProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:dateTime .
+
+schema:doorTime a owl:DatatypeProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range xsd:dateTime .
+
+schema:duration a owl:DatatypeProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:duration .
+
+schema:genre a owl:DatatypeProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:string .
+
+schema:image a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:ImageObject .
+
+schema:isBasedOn a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Movie .
+
+schema:location a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range schema:MovieTheater .
+
+schema:name a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+schema:ratingValue a owl:DatatypeProperty ;
+    rdfs:domain schema:AggregateRating ;
+    rdfs:range xsd:double .
+
+schema:videoFormat a owl:DatatypeProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range xsd:string .
+
+<http://dbpedia.org/resource/Adam_Driver> dbp:birthDate "1983-11-19"^^xsd:date,
+        ""@en ;
+    dbp:birthName "Adam Douglas Driver"@en ;
+    dbp:occupation "Actor"@en .
+
+<http://dbpedia.org/resource/Anna-Maria_Sieklucka> dbp:birthDate "1992-05-31"^^xsd:date ;
+    dbp:occupation "Actress"@en .
+
+<http://dbpedia.org/resource/Benedict_Cumberbatch> dbp:birthDate "1976-07-19"^^xsd:date ;
+    dbp:birthName "Benedict Timothy Carlton Cumberbatch"@en ;
+    dbp:occupation "Actor"@en .
+
+<http://dbpedia.org/resource/Channing_Tatum> dbp:birthDate "1980-04-26"^^xsd:date ;
+    dbp:birthName "Channing Matthew Tatum"@en ;
+    dbp:occupation ""@en,
+        "Actor"@en,
+        "dancer"@en,
+        "producer"@en .
+
+<http://dbpedia.org/resource/Daniel_Radcliffe> dbp:birthDate "1989-07-23"^^xsd:date ;
+    dbp:occupation "Actor"@en .
+
+<http://dbpedia.org/resource/Eddie_Redmayne> dbp:birthDate "1982-01-06"^^xsd:date ;
+    dbp:birthName "Edward John David Redmayne"@en ;
+    dbp:occupation ""@en,
+        "Actor"@en,
+        "model"@en .
+
+<http://dbpedia.org/resource/Ezra_Miller> dbp:birthDate "1992-09-30"^^xsd:date ;
+    dbp:birthName "Ezra Matthew Miller"@en ;
+    dbp:occupation "Actor"@en .
+
+<http://dbpedia.org/resource/Jared_Leto> dbp:birthDate "1971-12-26"^^xsd:date ;
+    dbp:occupation ""@en,
+        "Actor"@en,
+        "musician"@en,
+        "singer"@en .
+
+<http://dbpedia.org/resource/Sandra_Bullock> dbp:birthDate "1964-07-26"^^xsd:date ;
+    dbp:birthName "Sandra Annette Bullock"@en ;
+    dbp:occupation ""@en,
+        "Actress"@en,
+        "producer"@en .
+
+<http://dbpedia.org/resource/Scarlett_Johansson> dbp:birthDate "1984-11-22"^^xsd:date ;
+    dbp:birthName "Scarlett Ingrid Johansson"@en ;
+    dbp:occupation ""@en,
+        "Actress"@en,
+        "singer"@en .
+
+<http://dbpedia.org/resource/Tom_Holland> dbp:birthDate "1996-06-01"^^xsd:date ;
+    dbp:birthName "Thomas Stanley Holland"@en ;
+    dbp:occupation "Actor"@en .
+
+:sequelOf a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Movie .
+
+sw:Aaron_Nee a schema:Person ;
+    rdfs:label "Aaron Nee" ;
+    schema:name "Aaron Nee" .
+
+sw:Aavi_Haas a schema:Person ;
+    rdfs:label "Aavi Haas" ;
+    schema:name "Aavi Haas" .
+
+sw:Adam_Driver a schema:Person ;
+    rdfs:label "Adam Driver" ;
+    owl:sameAs <http://dbpedia.org/resource/Adam_Driver> ;
+    schema:name "Adam Driver" .
+
+sw:Adam_McKay a schema:Person ;
+    rdfs:label "Adam McKay" ;
+    schema:name "Adam McKay" .
+
+sw:Adam_Nee a schema:Person ;
+    rdfs:label "Adam Nee" ;
+    schema:name "Adam Nee" .
+
+sw:Adrian_Greensmith a schema:Person ;
+    rdfs:label "Adrian Greensmith" ;
+    schema:name "Adrian Greensmith" .
+
+sw:Adrian_Lyne a schema:Person ;
+    rdfs:label "Adrian Lyne" ;
+    schema:name "Adrian Lyne" .
+
+sw:Alana_Haim a schema:Person ;
+    rdfs:label "Alana Haim" ;
+    schema:name "Alana Haim" .
+
+sw:Alex_Garland a schema:Person ;
+    rdfs:label "Alex Garland" ;
+    schema:name "Alex Garland" .
+
+sw:Alex_Hardcastle a schema:Person ;
+    rdfs:label "Alex Hardcastle" ;
+    schema:name "Alex Hardcastle" .
+
+sw:Alexander_Skarsgård a schema:Person ;
+    rdfs:label "Alexander Skarsgård" ;
+    schema:name "Alexander Skarsgård" .
+
+sw:Alia_Bhatt a schema:Person ;
+    rdfs:label "Alia Bhatt" ;
+    schema:name "Alia Bhatt" .
+
+sw:Alicia_Vikander a schema:Person ;
+    rdfs:label "Alicia Vikander" ;
+    schema:name "Alicia Vikander" .
+
+sw:Amitabh_Bachchan a schema:Person ;
+    rdfs:label "Amitabh Bachchan" ;
+    schema:name "Amitabh Bachchan" .
+
+sw:Andrea_Sooch a schema:Person ;
+    rdfs:label "Andrea Sooch" ;
+    schema:name "Andrea Sooch" .
+
+sw:Andy_Garcia a schema:Person ;
+    rdfs:label "Andy Garcia" ;
+    schema:name "Andy Garcia" .
+
+sw:Andy_Serkis a schema:Person ;
+    rdfs:label "Andy Serkis" ;
+    schema:name "Andy Serkis" .
+
+sw:Angelina_Jolie a schema:Person ;
+    rdfs:label "Angelina Jolie" ;
+    schema:name "Angelina Jolie" .
+
+sw:Angourie_Rice a schema:Person ;
+    rdfs:label "Angourie Rice" ;
+    schema:name "Angourie Rice" .
+
+sw:Anil_Kapoor a schema:Person ;
+    rdfs:label "Anil Kapoor" ;
+    schema:name "Anil Kapoor" .
+
+sw:Annette_Bening a schema:Person ;
+    rdfs:label "Annette Bening" ;
+    schema:name "Annette Bening" .
+
+sw:Antonio_Banderas a schema:Person ;
+    rdfs:label "Antonio Banderas" ;
+    schema:name "Antonio Banderas" .
+
+sw:Anya_Taylor-Joy a schema:Person ;
+    rdfs:label "Anya Taylor-Joy" ;
+    schema:name "Anya Taylor-Joy" .
+
+sw:Aomi_Muyock a schema:Person ;
+    rdfs:label "Aomi Muyock" ;
+    schema:name "Aomi Muyock" .
+
+sw:Austin_Butler a schema:Person ;
+    rdfs:label "Austin Butler" ;
+    schema:name "Austin Butler" .
+
+sw:Ava_Morse a schema:Person ;
+    rdfs:label "Ava Morse" ;
+    schema:name "Ava Morse" .
+
+sw:Batman a schema:Movie ;
+    rdfs:label "Batman" ;
+    schema:name "Batman" .
+
+sw:Baz_Luhrmann a schema:Person ;
+    rdfs:label "Baz Luhrmann" ;
+    schema:name "Baz Luhrmann" .
+
+sw:Belmont_Cameli a schema:Person ;
+    rdfs:label "Belmont Cameli" ;
+    schema:name "Belmont Cameli" .
+
+sw:Ben_Affleck a schema:Person ;
+    rdfs:label "Ben Affleck" ;
+    schema:name "Ben Affleck" .
+
+sw:Ben_Foster a schema:Person ;
+    rdfs:label "Ben Foster" ;
+    schema:name "Ben Foster" .
+
+sw:Ben_Platt a schema:Person ;
+    rdfs:label "Ben Platt" ;
+    schema:name "Ben Platt" .
+
+sw:Berant_Zhu a schema:Person ;
+    rdfs:label "Berant Zhu" ;
+    schema:name "Berant Zhu" .
+
+sw:Bob_Gunton a schema:Person ;
+    rdfs:label "Bob Gunton" ;
+    schema:name "Bob Gunton" .
+
+sw:Brad_Pitt a schema:Person ;
+    rdfs:label "Brad Pitt" ;
+    schema:name "Brad Pitt" .
+
+sw:Bradley_Cooper a schema:Person ;
+    rdfs:label "Bradley Cooper" ;
+    schema:name "Bradley Cooper" .
+
+sw:Brittany_Snow a schema:Person ;
+    rdfs:label "Brittany Snow" ;
+    schema:name "Brittany Snow" .
+
+sw:Bronislaw_Wroclawski a schema:Person ;
+    rdfs:label "Bronislaw Wroclawski" ;
+    schema:name "Bronislaw Wroclawski" .
+
+sw:Bruce_Campbell a schema:Person ;
+    rdfs:label "Bruce Campbell" ;
+    schema:name "Bruce Campbell" .
+
+sw:Bruce_Robinson a schema:Person ;
+    rdfs:label "Bruce Robinson" ;
+    schema:name "Bruce Robinson" .
+
+sw:Bryce_Dallas_Howard a schema:Person ;
+    rdfs:label "Bryce Dallas Howard" ;
+    schema:name "Bryce Dallas Howard" .
+
+sw:Byron_Howard a schema:Person ;
+    rdfs:label "Byron Howard" ;
+    schema:name "Byron Howard" .
+
+sw:CINEMA_CITY a schema:MovieTheater ;
+    rdfs:label "CINEMA CITY" ;
+    schema:location sw:CINEMA_CITY ;
+    schema:name "CINEMA CITY" .
+
+sw:CINEMA_OCHO a schema:MovieTheater ;
+    rdfs:label "CINEMA OCHO" ;
+    schema:location sw:CINEMA_OCHO ;
+    schema:name "CINEMA OCHO" .
+
+sw:CINEMA_PARADISO a schema:MovieTheater ;
+    rdfs:label "CINEMA PARADISO" ;
+    schema:location sw:CINEMA_PARADISO ;
+    schema:name "CINEMA PARADISO" .
+
+sw:CINEMA_ROCHA a schema:MovieTheater ;
+    rdfs:label "CINEMA ROCHA" ;
+    schema:location sw:CINEMA_ROCHA ;
+    schema:name "CINEMA ROCHA" .
+
+sw:CINEMA_SAN_MARTIN a schema:MovieTheater ;
+    rdfs:label "CINEMA SAN MARTIN" ;
+    schema:location sw:CINEMA_SAN_MARTIN ;
+    schema:name "CINEMA SAN MARTIN" .
+
+sw:Carrie-Anne_Moss a schema:Person ;
+    rdfs:label "Carrie-Anne Moss" ;
+    schema:name "Carrie-Anne Moss" .
+
+sw:Carrie_Coon a schema:Person ;
+    rdfs:label "Carrie Coon" ;
+    schema:name "Carrie Coon" .
+
+sw:Cary_Joji_Fukunaga a schema:Person ;
+    rdfs:label "Cary Joji Fukunaga" ;
+    schema:name "Cary Joji Fukunaga" .
+
+sw:Cate_Blanchett a schema:Person ;
+    rdfs:label "Cate Blanchett" ;
+    schema:name "Cate Blanchett" .
+
+sw:Charise_Castro_Smith a schema:Person ;
+    rdfs:label "Charise Castro Smith" ;
+    schema:name "Charise Castro Smith" .
+
+sw:Charlie_Hunnam a schema:Person ;
+    rdfs:label "Charlie Hunnam" ;
+    schema:name "Charlie Hunnam" .
+
+sw:Chloé_Zhao a schema:Person ;
+    rdfs:label "Chloé Zhao" ;
+    schema:name "Chloé Zhao" .
+
+sw:Chris_Hemsworth a schema:Person ;
+    rdfs:label "Chris Hemsworth" ;
+    schema:name "Chris Hemsworth" .
+
+sw:Chris_Pine a schema:Person ;
+    rdfs:label "Chris Pine" ;
+    schema:name "Chris Pine" .
+
+sw:Chris_Pratt a schema:Person ;
+    rdfs:label "Chris Pratt" ;
+    schema:name "Chris Pratt" .
+
+sw:Christophe_Lourdelet a schema:Person ;
+    rdfs:label "Christophe Lourdelet" ;
+    schema:name "Christophe Lourdelet" .
+
+sw:Christopher_McDonald a schema:Person ;
+    rdfs:label "Christopher McDonald" ;
+    schema:name "Christopher McDonald" .
+
+sw:Christopher_Nolan a schema:Person ;
+    rdfs:label "Christopher Nolan" ;
+    schema:name "Christopher Nolan" .
+
+sw:Claes_Bang a schema:Person ;
+    rdfs:label "Claes Bang" ;
+    schema:name "Claes Bang" .
+
+sw:Colin_Firth a schema:Person ;
+    rdfs:label "Colin Firth" ;
+    schema:name "Colin Firth" .
+
+sw:Colin_Trevorrow a schema:Person ;
+    rdfs:label "Colin Trevorrow" ;
+    schema:name "Colin Trevorrow" .
+
+sw:Competencia_Oficial a schema:Movie ;
+    rdfs:label "Competencia Oficial" ;
+    schema:name "Competencia Oficial" .
+
+sw:Cooper_Hoffman a schema:Person ;
+    rdfs:label "Cooper Hoffman" ;
+    schema:name "Cooper Hoffman" .
+
+sw:Courteney_Cox a schema:Person ;
+    rdfs:label "Courteney Cox" ;
+    schema:name "Courteney Cox" .
+
+sw:Dan_Fogler a schema:Person ;
+    rdfs:label "Dan Fogler" ;
+    schema:name "Dan Fogler" .
+
+sw:Dan_Kwan a schema:Person ;
+    rdfs:label "Dan Kwan" ;
+    schema:name "Dan Kwan" .
+
+sw:Daniel_Craig a schema:Person ;
+    rdfs:label "Daniel Craig" ;
+    schema:name "Daniel Craig" .
+
+sw:Daniel_Espinosa a schema:Person ;
+    rdfs:label "Daniel Espinosa" ;
+    schema:name "Daniel Espinosa" .
+
+sw:Daniel_Radcliffe a schema:Person ;
+    rdfs:label "Daniel Radcliffe" ;
+    owl:sameAs <http://dbpedia.org/resource/Daniel_Radcliffe> ;
+    schema:name "Daniel Radcliffe" .
+
+sw:Daniel_Scheinert a schema:Person ;
+    rdfs:label "Daniel Scheinert" ;
+    schema:name "Daniel Scheinert" .
+
+sw:David_Arquette a schema:Person ;
+    rdfs:label "David Arquette" ;
+    schema:name "David Arquette" .
+
+sw:David_Cronenberg a schema:Person ;
+    rdfs:label "David Cronenberg" ;
+    schema:name "David Cronenberg" .
+
+sw:David_Keith a schema:Person ;
+    rdfs:label "David Keith" ;
+    schema:name "David Keith" .
+
+sw:Debbie_Pierce a schema:Person ;
+    rdfs:label "Debbie Pierce" ;
+    schema:name "Debbie Pierce" .
+
+sw:Denis_Villeneuve a schema:Person ;
+    rdfs:label "Denis Villeneuve" ;
+    schema:name "Denis Villeneuve" .
+
+sw:Dennis_Dugan a schema:Person ;
+    rdfs:label "Dennis Dugan" ;
+    schema:name "Dennis Dugan" .
+
+sw:Destin_Daniel_Cretton a schema:Person ;
+    rdfs:label "Destin Daniel Cretton" ;
+    schema:name "Destin Daniel Cretton" .
+
+sw:Domee_Shi a schema:Person ;
+    rdfs:label "Domee Shi" ;
+    schema:name "Domee Shi" .
+
+sw:Donald_Cline a schema:Person ;
+    rdfs:label "Donald Cline" ;
+    schema:name "Donald Cline" .
+
+sw:Drew_Barrymore a schema:Person ;
+    rdfs:label "Drew Barrymore" ;
+    schema:name "Drew Barrymore" .
+
+<http://www.semanticweb.org/Dylan_O&apos;Brien> a schema:Person ;
+    rdfs:label "Dylan O&apos;Brien" ;
+    schema:name "Dylan O&apos;Brien" .
+
+sw:Eiza_González a schema:Person ;
+    rdfs:label "Eiza González" ;
+    schema:name "Eiza González" .
+
+sw:El_Buen_Patrón a schema:Movie ;
+    rdfs:label "El Buen Patrón" ;
+    schema:name "El Buen Patrón" .
+
+sw:El_Exorcismo_De_Dios a schema:Movie ;
+    rdfs:label "El Exorcismo De Dios" ;
+    schema:name "El Exorcismo De Dios" .
+
+sw:El_Hombre_Del_Norte a schema:Movie ;
+    rdfs:label "El Hombre Del Norte" ;
+    schema:name "El Hombre Del Norte" .
+
+sw:El_Sistema_K.e.o.p.s a schema:Movie ;
+    rdfs:label "El Sistema K.e.o.p.s" ;
+    schema:name "El Sistema K.e.o.p.s" .
+
+sw:Elizabeth_Olsen a schema:Person ;
+    rdfs:label "Elizabeth Olsen" ;
+    schema:name "Elizabeth Olsen" .
+
+sw:Ellen_Sandweiss a schema:Person ;
+    rdfs:label "Ellen Sandweiss" ;
+    schema:name "Ellen Sandweiss" .
+
+sw:Emilia_Jones a schema:Person ;
+    rdfs:label "Emilia Jones" ;
+    schema:name "Emilia Jones" .
+
+sw:Emma_Pasarow a schema:Person ;
+    rdfs:label "Emma Pasarow" ;
+    schema:name "Emma Pasarow" .
+
+sw:En_La_Mira a schema:Movie ;
+    rdfs:label "En La Mira" ;
+    schema:name "En La Mira" .
+
+sw:Encanto a schema:Movie ;
+    rdfs:label "Encanto" ;
+    schema:actor sw:John_Leguizamo,
+        sw:María_Cecilia_Botero,
+        sw:Stephanie_Beatriz ;
+    schema:datePublished "2021-11-25"^^xsd:date ;
+    schema:director sw:Byron_Howard,
+        sw:Charise_Castro_Smith,
+        sw:Jared_Bush ;
+    schema:duration "PT1H42M"^^xsd:duration ;
+    schema:genre "Animation",
+        "Comedy",
+        "Family" ;
+    schema:image sw:image60 ;
+    schema:name "Encanto" .
+
+sw:Espen_Sandberg a schema:Person ;
+    rdfs:label "Espen Sandberg" ;
+    schema:name "Espen Sandberg" .
+
+sw:Ethan_Hawke a schema:Person ;
+    rdfs:label "Ethan Hawke" ;
+    schema:name "Ethan Hawke" .
+
+sw:Evelyn_Claire a schema:Person ;
+    rdfs:label "Evelyn Claire" ;
+    schema:name "Evelyn Claire" .
+
+sw:Ewan_McGregor a schema:Person ;
+    rdfs:label "Ewan McGregor" ;
+    schema:name "Ewan McGregor" .
+
+sw:Ezra_Miller a schema:Person ;
+    rdfs:label "Ezra Miller" ;
+    owl:sameAs <http://dbpedia.org/resource/Ezra_Miller> ;
+    schema:name "Ezra Miller" .
+
+sw:Fatima_Sana_Shaikh a schema:Person ;
+    rdfs:label "Fatima Sana Shaikh" ;
+    schema:name "Fatima Sana Shaikh" .
+
+sw:Finn_Wolfhard a schema:Person ;
+    rdfs:label "Finn Wolfhard" ;
+    schema:name "Finn Wolfhard" .
+
+sw:Florence_Pugh a schema:Person ;
+    rdfs:label "Florence Pugh" ;
+    schema:name "Florence Pugh" .
+
+sw:Francis_Ford_Coppola a schema:Person ;
+    rdfs:label "Francis Ford Coppola" ;
+    schema:name "Francis Ford Coppola" .
+
+sw:Frank_Darabont a schema:Person ;
+    rdfs:label "Frank Darabont" ;
+    schema:name "Frank Darabont" .
+
+sw:Freddie_Jones a schema:Person ;
+    rdfs:label "Freddie Jones" ;
+    schema:name "Freddie Jones" .
+
+sw:Gael_García_Bernal a schema:Person ;
+    rdfs:label "Gael García Bernal" ;
+    schema:name "Gael García Bernal" .
+
+sw:Garth_Jennings a schema:Person ;
+    rdfs:label "Garth Jennings" ;
+    schema:name "Garth Jennings" .
+
+sw:Gary_Alazraki a schema:Person ;
+    rdfs:label "Gary Alazraki" ;
+    schema:name "Gary Alazraki" .
+
+sw:Gary_Sinise a schema:Person ;
+    rdfs:label "Gary Sinise" ;
+    schema:name "Gary Sinise" .
+
+sw:Gaspar_Noé a schema:Person ;
+    rdfs:label "Gaspar Noé" ;
+    schema:name "Gaspar Noé" .
+
+sw:Gemma_Arterton a schema:Person ;
+    rdfs:label "Gemma Arterton" ;
+    schema:name "Gemma Arterton" .
+
+sw:Gemma_Chan a schema:Person ;
+    rdfs:label "Gemma Chan" ;
+    schema:name "Gemma Chan" .
+
+sw:Gillian_Jacobs a schema:Person ;
+    rdfs:label "Gillian Jacobs" ;
+    schema:name "Gillian Jacobs" .
+
+sw:Giovanni_Ribisi a schema:Person ;
+    rdfs:label "Giovanni Ribisi" ;
+    schema:name "Giovanni Ribisi" .
+
+sw:Gore_Verbinski a schema:Person ;
+    rdfs:label "Gore Verbinski" ;
+    schema:name "Gore Verbinski" .
+
+sw:Graham_Moore a schema:Person ;
+    rdfs:label "Graham Moore" ;
+    schema:name "Graham Moore" .
+
+sw:Guillermo_del_Toro a schema:Person ;
+    rdfs:label "Guillermo del Toro" ;
+    schema:name "Guillermo del Toro" .
+
+sw:Guy_Pearce a schema:Person ;
+    rdfs:label "Guy Pearce" ;
+    schema:name "Guy Pearce" .
+
+sw:Halle_Berry a schema:Person ;
+    rdfs:label "Halle Berry" ;
+    schema:name "Halle Berry" .
+
+sw:Harshvardhan_Kapoor a schema:Person ;
+    rdfs:label "Harshvardhan Kapoor" ;
+    schema:name "Harshvardhan Kapoor" .
+
+sw:Heath_Ledger a schema:Person ;
+    rdfs:label "Heath Ledger" ;
+    schema:name "Heath Ledger" .
+
+sw:Holt_McCallany a schema:Person ;
+    rdfs:label "Holt McCallany" ;
+    schema:name "Holt McCallany" .
+
+sw:Hugh_Bonneville a schema:Person ;
+    rdfs:label "Hugh Bonneville" ;
+    schema:name "Hugh Bonneville" .
+
+sw:Idris_Elba a schema:Person ;
+    rdfs:label "Idris Elba" ;
+    schema:name "Idris Elba" .
+
+sw:Isabela_Merced a schema:Person ;
+    rdfs:label "Isabela Merced" ;
+    schema:name "Isabela Merced" .
+
+sw:Isis_Hainsworth a schema:Person ;
+    rdfs:label "Isis Hainsworth" ;
+    schema:name "Isis Hainsworth" .
+
+sw:Izïa_Higelin a schema:Person ;
+    rdfs:label "Izïa Higelin" ;
+    schema:name "Izïa Higelin" .
+
+sw:Jack_En_La_Caja_Maldita a schema:Movie ;
+    rdfs:label "Jack En La Caja Maldita" ;
+    schema:name "Jack En La Caja Maldita" .
+
+sw:Jacoba_Ballard a schema:Person ;
+    rdfs:label "Jacoba Ballard" ;
+    schema:name "Jacoba Ballard" .
+
+sw:Jaeden_Martell a schema:Person ;
+    rdfs:label "Jaeden Martell" ;
+    schema:name "Jaeden Martell" .
+
+sw:Jake_Gyllenhaal a schema:Person ;
+    rdfs:label "Jake Gyllenhaal" ;
+    schema:name "Jake Gyllenhaal" .
+
+sw:James_Caan a schema:Person ;
+    rdfs:label "James Caan" ;
+    schema:name "James Caan" .
+
+sw:James_Gunn a schema:Person ;
+    rdfs:label "James Gunn" ;
+    schema:name "James Gunn" .
+
+sw:James_Ransone a schema:Person ;
+    rdfs:label "James Ransone" ;
+    schema:name "James Ransone" .
+
+sw:James_Wan a schema:Person ;
+    rdfs:label "James Wan" ;
+    schema:name "James Wan" .
+
+sw:Jared_Bush a schema:Person ;
+    rdfs:label "Jared Bush" ;
+    schema:name "Jared Bush" .
+
+sw:Jared_Leto a schema:Person ;
+    rdfs:label "Jared Leto" ;
+    owl:sameAs <http://dbpedia.org/resource/Jared_Leto> ;
+    schema:name "Jared Leto" .
+
+sw:Jason_Isaacs a schema:Person ;
+    rdfs:label "Jason Isaacs" ;
+    schema:name "Jason Isaacs" .
+
+sw:Jason_Momoa a schema:Person ;
+    rdfs:label "Jason Momoa" ;
+    schema:name "Jason Momoa" .
+
+sw:Jason_Reitman a schema:Person ;
+    rdfs:label "Jason Reitman" ;
+    schema:name "Jason Reitman" .
+
+sw:Jason_Statham a schema:Person ;
+    rdfs:label "Jason Statham" ;
+    schema:name "Jason Statham" .
+
+sw:Javier_Bardem a schema:Person ;
+    rdfs:label "Javier Bardem" ;
+    schema:name "Javier Bardem" .
+
+sw:Jeffrey_Wright a schema:Person ;
+    rdfs:label "Jeffrey Wright" ;
+    schema:name "Jeffrey Wright" .
+
+sw:Jenna_Ortega a schema:Person ;
+    rdfs:label "Jenna Ortega" ;
+    schema:name "Jenna Ortega" .
+
+sw:Jennifer_Connelly a schema:Person ;
+    rdfs:label "Jennifer Connelly" ;
+    schema:name "Jennifer Connelly" .
+
+sw:Jennifer_Lawrence a schema:Person ;
+    rdfs:label "Jennifer Lawrence" ;
+    schema:name "Jennifer Lawrence" .
+
+sw:Jeremiah_Zagar a schema:Person ;
+    rdfs:label "Jeremiah Zagar" ;
+    schema:name "Jeremiah Zagar" .
+
+sw:Jeremy_Davies a schema:Person ;
+    rdfs:label "Jeremy Davies" ;
+    schema:name "Jeremy Davies" .
+
+sw:Jessie_Buckley a schema:Person ;
+    rdfs:label "Jessie Buckley" ;
+    schema:name "Jessie Buckley" .
+
+sw:Jim_Carter a schema:Person ;
+    rdfs:label "Jim Carter" ;
+    schema:name "Jim Carter" .
+
+sw:Joachim_Rønning a schema:Person ;
+    rdfs:label "Joachim Rønning" ;
+    schema:name "Joachim Rønning" .
+
+sw:Jodie_Comer a schema:Person ;
+    rdfs:label "Jodie Comer" ;
+    schema:name "Jodie Comer" .
+
+sw:John_Bradley a schema:Person ;
+    rdfs:label "John Bradley" ;
+    schema:name "John Bradley" .
+
+sw:John_Cena a schema:Person ;
+    rdfs:label "John Cena" ;
+    schema:name "John Cena" .
+
+sw:John_Leguizamo a schema:Person ;
+    rdfs:label "John Leguizamo" ;
+    schema:name "John Leguizamo" .
+
+sw:John_Madden a schema:Person ;
+    rdfs:label "John Madden" ;
+    schema:name "John Madden" .
+
+sw:Johnny_Flynn a schema:Person ;
+    rdfs:label "Johnny Flynn" ;
+    schema:name "Johnny Flynn" .
+
+sw:Jon_Watts a schema:Person ;
+    rdfs:label "Jon Watts" ;
+    schema:name "Jon Watts" .
+
+sw:Joseph_Kosinski a schema:Person ;
+    rdfs:label "Joseph Kosinski" ;
+    schema:name "Joseph Kosinski" .
+
+sw:Josh_Hartnett a schema:Person ;
+    rdfs:label "Josh Hartnett" ;
+    schema:name "Josh Hartnett" .
+
+sw:Josh_Lucas a schema:Person ;
+    rdfs:label "Josh Lucas" ;
+    schema:name "Josh Lucas" .
+
+sw:Jude_Law a schema:Person ;
+    rdfs:label "Jude Law" ;
+    schema:name "Jude Law" .
+
+sw:Julianne_Moore a schema:Person ;
+    rdfs:label "Julianne Moore" ;
+    schema:name "Julianne Moore" .
+
+sw:Julie_Bowen a schema:Person ;
+    rdfs:label "Julie Bowen" ;
+    schema:name "Julie Bowen" .
+
+sw:Justin_Theroux a schema:Person ;
+    rdfs:label "Justin Theroux" ;
+    schema:name "Justin Theroux" .
+
+sw:Kaitlyn_Dever a schema:Person ;
+    rdfs:label "Kaitlyn Dever" ;
+    schema:name "Kaitlyn Dever" .
+
+sw:Karen_Gillan a schema:Person ;
+    rdfs:label "Karen Gillan" ;
+    schema:name "Karen Gillan" .
+
+sw:Karl_Glusman a schema:Person ;
+    rdfs:label "Karl Glusman" ;
+    schema:name "Karl Glusman" .
+
+sw:Kate_Dickie a schema:Person ;
+    rdfs:label "Kate Dickie" ;
+    schema:name "Kate Dickie" .
+
+sw:Katherine_Waterston a schema:Person ;
+    rdfs:label "Katherine Waterston" ;
+    schema:name "Katherine Waterston" .
+
+sw:Ke_Huy_Quan a schema:Person ;
+    rdfs:label "Ke Huy Quan" ;
+    schema:name "Ke Huy Quan" .
+
+sw:Keanu_Reeves a schema:Person ;
+    rdfs:label "Keanu Reeves" ;
+    schema:name "Keanu Reeves" .
+
+sw:Keith_Thomas a schema:Person ;
+    rdfs:label "Keith Thomas" ;
+    schema:name "Keith Thomas" .
+
+sw:Kelly_Macdonald a schema:Person ;
+    rdfs:label "Kelly Macdonald" ;
+    schema:name "Kelly Macdonald" .
+
+sw:Kelly_McGillis a schema:Person ;
+    rdfs:label "Kelly McGillis" ;
+    schema:name "Kelly McGillis" .
+
+sw:Klara_Kristin a schema:Person ;
+    rdfs:label "Klara Kristin" ;
+    schema:name "Klara Kristin" .
+
+sw:Kristen_Stewart a schema:Person ;
+    rdfs:label "Kristen Stewart" ;
+    schema:name "Kristen Stewart" .
+
+sw:Kyliegh_Curran a schema:Person ;
+    rdfs:label "Kyliegh Curran" ;
+    schema:name "Kyliegh Curran" .
+
+sw:La_Ciudad_Perdida a schema:Movie ;
+    rdfs:label "La Ciudad Perdida" ;
+    schema:name "La Ciudad Perdida" .
+
+sw:Lady_Gaga a schema:Person ;
+    rdfs:label "Lady Gaga" ;
+    schema:name "Lady Gaga" .
+
+sw:Lana_Wachowski a schema:Person ;
+    rdfs:label "Lana Wachowski" ;
+    schema:name "Lana Wachowski" .
+
+sw:Laura_Dern a schema:Person ;
+    rdfs:label "Laura Dern" ;
+    schema:name "Laura Dern" .
+
+sw:Laura_Kariuki a schema:Person ;
+    rdfs:label "Laura Kariuki" ;
+    schema:name "Laura Kariuki" .
+
+sw:Laurent_Lafitte a schema:Person ;
+    rdfs:label "Laurent Lafitte" ;
+    schema:name "Laurent Lafitte" .
+
+sw:Liam_Neeson a schema:Person ;
+    rdfs:label "Liam Neeson" ;
+    schema:name "Liam Neeson" .
+
+sw:Llamas_De_Venganza a schema:Movie ;
+    rdfs:label "Llamas De Venganza" ;
+    schema:name "Llamas De Venganza" .
+
+sw:Louis_Leterrier a schema:Person ;
+    rdfs:label "Louis Leterrier" ;
+    schema:name "Louis Leterrier" .
+
+sw:Lucie_Jourdan a schema:Person ;
+    rdfs:label "Lucie Jourdan" ;
+    schema:name "Lucie Jourdan" .
+
+sw:Léa_Seydoux a schema:Person ;
+    rdfs:label "Léa Seydoux" ;
+    schema:name "Léa Seydoux" .
+
+sw:M._Night_Shyamalan a schema:Person ;
+    rdfs:label "M. Night Shyamalan" ;
+    schema:name "M. Night Shyamalan" .
+
+sw:Malcolm_McDowell a schema:Person ;
+    rdfs:label "Malcolm McDowell" ;
+    schema:name "Malcolm McDowell" .
+
+sw:Marc_Maron a schema:Person ;
+    rdfs:label "Marc Maron" ;
+    schema:name "Marc Maron" .
+
+sw:Mark_L._Lester a schema:Person ;
+    rdfs:label "Mark L. Lester" ;
+    schema:name "Mark L. Lester" .
+
+sw:Marlee_Matlin a schema:Person ;
+    rdfs:label "Marlee Matlin" ;
+    schema:name "Marlee Matlin" .
+
+sw:Marlon_Brando a schema:Person ;
+    rdfs:label "Marlon Brando" ;
+    schema:name "Marlon Brando" .
+
+sw:Martin_Campbell a schema:Person ;
+    rdfs:label "Martin Campbell" ;
+    schema:name "Martin Campbell" .
+
+sw:Mary_Harron a schema:Person ;
+    rdfs:label "Mary Harron" ;
+    schema:name "Mary Harron" .
+
+sw:Mary_Holland a schema:Person ;
+    rdfs:label "Mary Holland" ;
+    schema:name "Mary Holland" .
+
+sw:María_Cecilia_Botero a schema:Person ;
+    rdfs:label "María Cecilia Botero" ;
+    schema:name "María Cecilia Botero" .
+
+sw:Mathew_Cullen a schema:Person ;
+    rdfs:label "Mathew Cullen" ;
+    schema:name "Mathew Cullen" .
+
+sw:Matt_Bettinelli-Olpin a schema:Person ;
+    rdfs:label "Matt Bettinelli-Olpin" ;
+    schema:name "Matt Bettinelli-Olpin" .
+
+sw:Matt_Reeves a schema:Person ;
+    rdfs:label "Matt Reeves" ;
+    schema:name "Matt Reeves" .
+
+sw:Matt_Smith a schema:Person ;
+    rdfs:label "Matt Smith" ;
+    schema:name "Matt Smith" .
+
+sw:Matthew_Macfadyen a schema:Person ;
+    rdfs:label "Matthew Macfadyen" ;
+    schema:name "Matthew Macfadyen" .
+
+sw:Matthew_Vaughn a schema:Person ;
+    rdfs:label "Matthew Vaughn" ;
+    schema:name "Matthew Vaughn" .
+
+sw:Mel_Gibson a schema:Person ;
+    rdfs:label "Mel Gibson" ;
+    schema:name "Mel Gibson" .
+
+sw:Meryl_Streep a schema:Person ;
+    rdfs:label "Meryl Streep" ;
+    schema:name "Meryl Streep" .
+
+sw:Mia_Goth a schema:Person ;
+    rdfs:label "Mia Goth" ;
+    schema:name "Mia Goth" .
+
+sw:Michael_Bay a schema:Person ;
+    rdfs:label "Michael Bay" ;
+    schema:name "Michael Bay" .
+
+sw:Michelle_Williams a schema:Person ;
+    rdfs:label "Michelle Williams" ;
+    schema:name "Michelle Williams" .
+
+sw:Mike_Flanagan a schema:Person ;
+    rdfs:label "Mike Flanagan" ;
+    schema:name "Mike Flanagan" .
+
+sw:Miles_Teller a schema:Person ;
+    rdfs:label "Miles Teller" ;
+    schema:name "Miles Teller" .
+
+sw:Monica_Bellucci a schema:Person ;
+    rdfs:label "Monica Bellucci" ;
+    schema:name "Monica Bellucci" .
+
+sw:Morbius a schema:Movie ;
+    rdfs:label "Morbius" ;
+    schema:actor sw:Adria_Arjona,
+        sw:Jared_Leto,
+        sw:Matt_Smith ;
+    schema:datePublished "2022-03-31"^^xsd:date ;
+    schema:director sw:Daniel_Espinosa ;
+    schema:duration "PT1H44M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Horror" ;
+    schema:image sw:image42 ;
+    schema:name "Morbius" .
+
+sw:Morgan_Freeman a schema:Person ;
+    rdfs:label "Morgan Freeman" ;
+    schema:name "Morgan Freeman" .
+
+sw:Natalie_Portman a schema:Person ;
+    rdfs:label "Natalie Portman" ;
+    schema:name "Natalie Portman" .
+
+sw:Neve_Campbell a schema:Person ;
+    rdfs:label "Neve Campbell" ;
+    schema:name "Neve Campbell" .
+
+sw:Nicolas_Cage a schema:Person ;
+    rdfs:label "Nicolas Cage" ;
+    schema:name "Nicolas Cage" .
+
+sw:Nicole_Kidman a schema:Person ;
+    rdfs:label "Nicole Kidman" ;
+    schema:name "Nicole Kidman" .
+
+sw:Ninja_Thyberg a schema:Person ;
+    rdfs:label "Ninja Thyberg" ;
+    schema:name "Ninja Thyberg" .
+
+sw:Olivia_DeJonge a schema:Person ;
+    rdfs:label "Olivia DeJonge" ;
+    schema:name "Olivia DeJonge" .
+
+sw:Omar_Sy a schema:Person ;
+    rdfs:label "Omar Sy" ;
+    schema:name "Omar Sy" .
+
+sw:Orlando_Bloom a schema:Person ;
+    rdfs:label "Orlando Bloom" ;
+    schema:name "Orlando Bloom" .
+
+sw:Paapa_Essiedu a schema:Person ;
+    rdfs:label "Paapa Essiedu" ;
+    schema:name "Paapa Essiedu" .
+
+sw:Patrick_Wilson a schema:Person ;
+    rdfs:label "Patrick Wilson" ;
+    schema:name "Patrick Wilson" .
+
+sw:Paul_Rudd a schema:Person ;
+    rdfs:label "Paul Rudd" ;
+    schema:name "Paul Rudd" .
+
+sw:Paul_Thomas_Anderson a schema:Person ;
+    rdfs:label "Paul Thomas Anderson" ;
+    schema:name "Paul Thomas Anderson" .
+
+sw:Pedro_Pascal a schema:Person ;
+    rdfs:label "Pedro Pascal" ;
+    schema:name "Pedro Pascal" .
+
+sw:Peter_Sollett a schema:Person ;
+    rdfs:label "Peter Sollett" ;
+    schema:name "Peter Sollett" .
+
+sw:Pierre_Perifel a schema:Person ;
+    rdfs:label "Pierre Perifel" ;
+    schema:name "Pierre Perifel" .
+
+sw:Prashanth_Neel a schema:Person ;
+    rdfs:label "Prashanth Neel" ;
+    schema:name "Prashanth Neel" .
+
+sw:Quentin_Tarantino a schema:Person ;
+    rdfs:label "Quentin Tarantino" ;
+    schema:name "Quentin Tarantino" .
+
+sw:Rachel_McAdams a schema:Person ;
+    rdfs:label "Rachel McAdams" ;
+    schema:name "Rachel McAdams" .
+
+sw:Raj_Singh_Chaudhary a schema:Person ;
+    rdfs:label "Raj Singh Chaudhary" ;
+    schema:name "Raj Singh Chaudhary" .
+
+sw:Rakul_Preet_Singh a schema:Person ;
+    rdfs:label "Rakul Preet Singh" ;
+    schema:name "Rakul Preet Singh" .
+
+sw:Ralph_Fiennes a schema:Person ;
+    rdfs:label "Ralph Fiennes" ;
+    schema:name "Ralph Fiennes" .
+
+sw:Ralph_Ineson a schema:Person ;
+    rdfs:label "Ralph Ineson" ;
+    schema:name "Ralph Ineson" .
+
+sw:Rami_Malek a schema:Person ;
+    rdfs:label "Rami Malek" ;
+    schema:name "Rami Malek" .
+
+sw:Rebel_Wilson a schema:Person ;
+    rdfs:label "Rebel Wilson" ;
+    schema:name "Rebel Wilson" .
+
+sw:Reese_Witherspoon a schema:Person ;
+    rdfs:label "Reese Witherspoon" ;
+    schema:name "Reese Witherspoon" .
+
+sw:Regina_Lei a schema:Person ;
+    rdfs:label "Regina Lei" ;
+    schema:name "Regina Lei" .
+
+sw:Reid_Carolin a schema:Person ;
+    rdfs:label "Reid Carolin" ;
+    schema:name "Reid Carolin" .
+
+sw:Rhys_Ifans a schema:Person ;
+    rdfs:label "Rhys Ifans" ;
+    schema:name "Rhys Ifans" .
+
+sw:Richard_DeManincor a schema:Person ;
+    rdfs:label "Richard DeManincor" ;
+    schema:name "Richard DeManincor" .
+
+sw:Richard_Madden a schema:Person ;
+    rdfs:label "Richard Madden" ;
+    schema:name "Richard Madden" .
+
+sw:Ridley_Scott a schema:Person ;
+    rdfs:label "Ridley Scott" ;
+    schema:name "Ridley Scott" .
+
+sw:Rob_Jabbaz a schema:Person ;
+    rdfs:label "Rob Jabbaz" ;
+    schema:name "Rob Jabbaz" .
+
+sw:Robert_Pattinson a schema:Person ;
+    rdfs:label "Robert Pattinson" ;
+    schema:name "Robert Pattinson" .
+
+sw:Robert_Zemeckis a schema:Person ;
+    rdfs:label "Robert Zemeckis" ;
+    schema:name "Robert Zemeckis" .
+
+sw:Robin_Wright a schema:Person ;
+    rdfs:label "Robin Wright" ;
+    schema:name "Robin Wright" .
+
+sw:Roland_Emmerich a schema:Person ;
+    rdfs:label "Roland Emmerich" ;
+    schema:name "Roland Emmerich" .
+
+sw:Rory_Kinnear a schema:Person ;
+    rdfs:label "Rory Kinnear" ;
+    schema:name "Rory Kinnear" .
+
+sw:Rosalie_Chiang a schema:Person ;
+    rdfs:label "Rosalie Chiang" ;
+    schema:name "Rosalie Chiang" .
+
+sw:Rosalind_Ross a schema:Person ;
+    rdfs:label "Rosalind Ross" ;
+    schema:name "Rosalind Ross" .
+
+sw:Ruben_Fleischer a schema:Person ;
+    rdfs:label "Ruben Fleischer" ;
+    schema:name "Ruben Fleischer" .
+
+sw:Rufus_Sewell a schema:Person ;
+    rdfs:label "Rufus Sewell" ;
+    schema:name "Rufus Sewell" .
+
+sw:Ryan_Gosling a schema:Person ;
+    rdfs:label "Ryan Gosling" ;
+    schema:name "Ryan Gosling" .
+
+sw:Ryan_Kiera_Armstrong a schema:Person ;
+    rdfs:label "Ryan Kiera Armstrong" ;
+    schema:name "Ryan Kiera Armstrong" .
+
+sw:Ryder_McLaughlin a schema:Person ;
+    rdfs:label "Ryder McLaughlin" ;
+    schema:name "Ryder McLaughlin" .
+
+sw:Sam_Rockwell a schema:Person ;
+    rdfs:label "Sam Rockwell" ;
+    schema:name "Sam Rockwell" .
+
+sw:Sander_Thomas a schema:Person ;
+    rdfs:label "Sander Thomas" ;
+    schema:name "Sander Thomas" .
+
+sw:Sandra_Bullock a schema:Person ;
+    rdfs:label "Sandra Bullock" ;
+    owl:sameAs <http://dbpedia.org/resource/Sandra_Bullock> ;
+    schema:name "Sandra Bullock" .
+
+sw:Sandra_Oh a schema:Person ;
+    rdfs:label "Sandra Oh" ;
+    schema:name "Sandra Oh" .
+
+sw:Sanjay_Dutt a schema:Person ;
+    rdfs:label "Sanjay Dutt" ;
+    schema:name "Sanjay Dutt" .
+
+sw:Sanjay_Leela_Bhansali a schema:Person ;
+    rdfs:label "Sanjay Leela Bhansali" ;
+    schema:name "Sanjay Leela Bhansali" .
+
+sw:Scarlett_Johansson a schema:Person ;
+    rdfs:label "Scarlett Johansson" ;
+    owl:sameAs <http://dbpedia.org/resource/Scarlett_Johansson> ;
+    schema:name "Scarlett Johansson" .
+
+sw:Sean_Penn a schema:Person ;
+    rdfs:label "Sean Penn" ;
+    schema:name "Sean Penn" .
+
+sw:Shantanu_Maheshwari a schema:Person ;
+    rdfs:label "Shantanu Maheshwari" ;
+    schema:name "Shantanu Maheshwari" .
+
+sw:Sian_Heder a schema:Person ;
+    rdfs:label "Sian Heder" ;
+    schema:name "Sian Heder" .
+
+sw:Sigourney_Weaver a schema:Person ;
+    rdfs:label "Sigourney Weaver" ;
+    schema:name "Sigourney Weaver" .
+
+sw:Simon_Curtis a schema:Person ;
+    rdfs:label "Simon Curtis" ;
+    schema:name "Simon Curtis" .
+
+sw:Simone_Susinna a schema:Person ;
+    rdfs:label "Simone Susinna" ;
+    schema:name "Simone Susinna" .
+
+sw:Simu_Liu a schema:Person ;
+    rdfs:label "Simu Liu" ;
+    schema:name "Simu Liu" .
+
+sw:Sofia_Alvarez a schema:Person ;
+    rdfs:label "Sofia Alvarez" ;
+    schema:name "Sofia Alvarez" .
+
+sw:Sofia_Kappel a schema:Person ;
+    rdfs:label "Sofia Kappel" ;
+    schema:name "Sofia Kappel" .
+
+sw:Spiderman_Sin_Camino_A_Casa a schema:Movie ;
+    rdfs:label "Spiderman Sin Camino A Casa" ;
+    schema:name "Spiderman Sin Camino A Casa" .
+
+sw:Srinidhi_Shetty a schema:Person ;
+    rdfs:label "Srinidhi Shetty" ;
+    schema:name "Srinidhi Shetty" .
+
+sw:Stephanie_Beatriz a schema:Person ;
+    rdfs:label "Stephanie Beatriz" ;
+    schema:name "Stephanie Beatriz" .
+
+sw:Stephanie_Hsu a schema:Person ;
+    rdfs:label "Stephanie Hsu" ;
+    schema:name "Stephanie Hsu" .
+
+sw:Stephen_Chbosky a schema:Person ;
+    rdfs:label "Stephen Chbosky" ;
+    schema:name "Stephen Chbosky" .
+
+sw:Stuart_Baird a schema:Person ;
+    rdfs:label "Stuart Baird" ;
+    schema:name "Stuart Baird" .
+
+sw:Sydney_Lemmon a schema:Person ;
+    rdfs:label "Sydney Lemmon" ;
+    schema:name "Sydney Lemmon" .
+
+sw:Tarik_Saleh a schema:Person ;
+    rdfs:label "Tarik Saleh" ;
+    schema:name "Tarik Saleh" .
+
+sw:Theo_James a schema:Person ;
+    rdfs:label "Theo James" ;
+    schema:name "Theo James" .
+
+sw:Ti_West a schema:Person ;
+    rdfs:label "Ti West" ;
+    schema:name "Ti West" .
+
+sw:Tiffany_Haddish a schema:Person ;
+    rdfs:label "Tiffany Haddish" ;
+    schema:name "Tiffany Haddish" .
+
+sw:Timothy_Simons a schema:Person ;
+    rdfs:label "Timothy Simons" ;
+    schema:name "Timothy Simons" .
+
+sw:Timothée_Chalamet a schema:Person ;
+    rdfs:label "Timothée Chalamet" ;
+    schema:name "Timothée Chalamet" .
+
+sw:Tom_Bateman a schema:Person ;
+    rdfs:label "Tom Bateman" ;
+    schema:name "Tom Bateman" .
+
+sw:Tom_Gormican a schema:Person ;
+    rdfs:label "Tom Gormican" ;
+    schema:name "Tom Gormican" .
+
+sw:Tom_Hardy a schema:Person ;
+    rdfs:label "Tom Hardy" ;
+    schema:name "Tom Hardy" .
+
+sw:Tom_Hooper a schema:Person ;
+    rdfs:label "Tom Hooper" ;
+    schema:name "Tom Hooper" .
+
+sw:Tommy_Lee_Jones a schema:Person ;
+    rdfs:label "Tommy Lee Jones" ;
+    schema:name "Tommy Lee Jones" .
+
+sw:Toni_Collette a schema:Person ;
+    rdfs:label "Toni Collette" ;
+    schema:name "Toni Collette" .
+
+sw:Tony_Chiu-Wai_Leung a schema:Person ;
+    rdfs:label "Tony Chiu-Wai Leung" ;
+    schema:name "Tony Chiu-Wai Leung" .
+
+sw:Tony_Scott a schema:Person ;
+    rdfs:label "Tony Scott" ;
+    schema:name "Tony Scott" .
+
+sw:Tracy_Letts a schema:Person ;
+    rdfs:label "Tracy Letts" ;
+    schema:name "Tracy Letts" .
+
+sw:Troy_Kotsur a schema:Person ;
+    rdfs:label "Troy Kotsur" ;
+    schema:name "Troy Kotsur" .
+
+sw:Tyler_Gillett a schema:Person ;
+    rdfs:label "Tyler Gillett" ;
+    schema:name "Tyler Gillett" .
+
+sw:Un_Amor_Cerca_Del_Paraiso a schema:Movie ;
+    rdfs:label "Un Amor Cerca Del Paraiso" ;
+    schema:name "Un Amor Cerca Del Paraiso" .
+
+sw:Uncharted_Fuera_Del_Mapa a schema:Movie ;
+    rdfs:label "Uncharted Fuera Del Mapa" ;
+    schema:name "Uncharted Fuera Del Mapa" .
+
+sw:Vicky_Krieps a schema:Person ;
+    rdfs:label "Vicky Krieps" ;
+    schema:name "Vicky Krieps" .
+
+sw:Viggo_Mortensen a schema:Person ;
+    rdfs:label "Viggo Mortensen" ;
+    schema:name "Viggo Mortensen" .
+
+sw:Vijay_Raaz a schema:Person ;
+    rdfs:label "Vijay Raaz" ;
+    schema:name "Vijay Raaz" .
+
+sw:Walker_Scobell a schema:Person ;
+    rdfs:label "Walker Scobell" ;
+    schema:name "Walker Scobell" .
+
+sw:Wesley_Snipes a schema:Person ;
+    rdfs:label "Wesley Snipes" ;
+    schema:name "Wesley Snipes" .
+
+sw:Willem_Dafoe a schema:Person ;
+    rdfs:label "Willem Dafoe" ;
+    schema:name "Willem Dafoe" .
+
+sw:Woody_Harrelson a schema:Person ;
+    rdfs:label "Woody Harrelson" ;
+    schema:name "Woody Harrelson" .
+
+sw:Yash a schema:Person ;
+    rdfs:label "Yash" ;
+    schema:name "Yash" .
+
+sw:Ying-Ru_Chen a schema:Person ;
+    rdfs:label "Ying-Ru Chen" ;
+    schema:name "Ying-Ru Chen" .
+
+sw:Zac_Efron a schema:Person ;
+    rdfs:label "Zac Efron" ;
+    schema:name "Zac Efron" .
+
+sw:Zelda_Morrison a schema:Person ;
+    rdfs:label "Zelda Morrison" ;
+    schema:name "Zelda Morrison" .
+
+sw:Zoey_Deutch a schema:Person ;
+    rdfs:label "Zoey Deutch" ;
+    schema:name "Zoey Deutch" .
+
+sw:Zoë_Kravitz a schema:Person ;
+    rdfs:label "Zoë Kravitz" ;
+    schema:name "Zoë Kravitz" .
+
+sw:image0 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image1 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWFmYmRiYzMtMTQ4YS00NjA5LTliYTgtMmM3OTc4OGY3MTFkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+sw:image10 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjY2NzUxNjgtNjJhNy00NTA4LTlmNzItYzQ4MDdjNWYxZjkwXkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_.jpg" .
+
+sw:image11 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWEwNjhkYzYtNjgzYy00YTY2LThjYWYtYzViMGJkZTI4Y2MyXkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg" .
+
+sw:image12 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg" .
+
+sw:image13 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDdhYzNkOWQtYWNlNi00NDdjLWJlZDMtMjJjZDYyNjAxM2U1XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_.jpg" .
+
+sw:image14 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg" .
+
+sw:image15 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTJiMmE5YWItOWZjYS00YTg0LWE0MTYtMzg2ZTY4YjNkNDEzXkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg" .
+
+sw:image16 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDhkYmU0MzctMWEzNy00ODg1LWI3ZjAtMGZlZjkzNWVmMzVjXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image17 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg" .
+
+sw:image18 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" .
+
+sw:image19 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjI4ZTQ1OTYtNTI0Yi00M2EyLThiNjMtMzk1MmZlOWMyMDQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" .
+
+sw:image2 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg" .
+
+sw:image20 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMzJjZWYzNTctODgwOS00OGNiLTg4MjktMDlmNWUxNjczMzljXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image21 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZjQxYTA3ODItNzgxMy00N2Y2LWJlZGMtMTRlM2JkZjI1ZDhhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg" .
+
+sw:image22 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMGI1NjA1MjUtNGQxNC00NDYyLThjODgtZjFkZjQ4OGM0NDc5XkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg" .
+
+sw:image23 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" .
+
+sw:image24 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZTAxNTRjYTQtYjg3ZC00NzI1LWE5YzgtZTIwMGU1NDBkYzBmXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg" .
+
+sw:image25 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNDM2ODNiMWItOWRkNS00ODE3LWE2OGYtNTZkMDJkOWI1ODMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg" .
+
+sw:image26 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTM5ODA4MjYxM15BMl5BanBnXkFtZTcwMTM3NTE5Ng@@._V1_.jpg" .
+
+sw:image27 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZjNmMWFjZmUtZWYyMy00YTE4LTlhNzEtMTBlMGFkMzNmOTE3XkEyXkFqcGdeQXVyNjE4ODA3NTY@._V1_.jpg" .
+
+sw:image28 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjUyN2VlZGEtNGEyZC00YjViLTgwYmQtZDJiM2FlOTU3Mjg2XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg" .
+
+sw:image29 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image3 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg" .
+
+sw:image30 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZDdjZjM1YWItNWRmOS00OTEzLWJmYjAtOGQzNTAyNmEwNDhjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image31 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg" .
+
+sw:image32 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZmQ1NDZjMTktMjFhZC00ZGY5LWEyMTMtNDhkOWM4NmMyZjI0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image33 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOWY1NjE2MzUtYTVjOC00ZDUxLWIwZDUtMzk5YWQ5ODc5YTI5XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg" .
+
+sw:image34 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_.jpg" .
+
+sw:image35 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjMwMDgyOGQtMWZjNC00MDUwLTllZDYtZWM3NDBmN2YzNGZmXkEyXkFqcGdeQXVyMTQzNjkzMzEw._V1_.jpg" .
+
+sw:image36 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOGQwMjA2NzItNmJjYS00MDQ4LWJiZmYtNjgyZjFlNTY0MjQ0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+sw:image37 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOWIyNDA2YjEtZGNhNy00YjY1LTk5ZDctNmEyMzQxZTQyYjAwXkEyXkFqcGdeQXVyMTIzNDk1MDYz._V1_.jpg" .
+
+sw:image38 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" .
+
+sw:image39 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BM2ZjYzI3MWItODYxYS00ZmNmLWEyN2YtNDQ1NjhjNTcwYzc4XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg" .
+
+sw:image4 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+sw:image40 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg" .
+
+sw:image41 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjdhYTE3NjMtZjI3OC00NzVlLWFiNTUtNzQ3NDNiNTI3NDg4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" .
+
+sw:image42 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNTA3N2Q0ZTAtODJjNy00MmQzLWJlMmItOGFmNDI0ODgxN2QwXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg" .
+
+sw:image43 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZjk0OWZiN2ItNmQ2YS00NTJmLTg0MjItNzM4NzBkMWM1ZTRlXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg" .
+
+sw:image44 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYWQ0NWUyMjktYjg4Yy00NmY3LTg2YzEtNWY5OTY5YTc2MjhjXkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_.jpg" .
+
+sw:image45 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNmU3ZTJjMTEtYzc2Ny00YjVhLTkyYmQtZTFhYWY0N2MxMzkxXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image46 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image47 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg" .
+
+sw:image48 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmZiMjdlN2UtYzdiZS00YjgxLTgyZGMtYzE4ZGU5NTlkNjhhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" .
+
+sw:image49 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZGQ2ZDNiMjgtMTNhNS00MjUxLWFkYTMtYTI1OTE0MmQ2MmJkXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image5 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg" .
+
+sw:image50 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDQzZjViMmQtZTZlNy00N2QyLThjYzItOTliOTE2NThiYzQzXkEyXkFqcGdeQXVyNDQxOTAyNA@@._V1_.jpg" .
+
+sw:image51 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjhiODE0ZjktYzVhYS00ODRlLTkwZjYtYjRlNjg5YzI1MzZlXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg" .
+
+sw:image52 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZDdjODNkMmYtYjMwNS00NTQzLThlYjUtODY2ZjdjNTNlY2JiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image53 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOWM0YWMwMDQtMjE5NS00ZTIwLWE1NWEtODViMWZjMWI2OTU3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" .
+
+sw:image54 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" .
+
+sw:image55 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYzMwZTZhY2UtNWRjYy00MDc3LWE2MWUtZTg5NjVmZGY1NTdhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" .
+
+sw:image56 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzFiZTQ4ZjQtNjgyZi00Yjc0LWI2Y2YtNjk0YzM3NWEwYjYzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" .
+
+sw:image57 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOGI5N2FhNzktZjZlNi00MmRjLWE1MmUtNjRlNzQyOGMzYjNhXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
+
+sw:image58 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image59 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOWYxZDMxYWUtNjNiZC00MDE1LWI2Y2QtNWZhNDAyMGY5ZjVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+sw:image6 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwZDMyYWUtNTU0ZS00ODJhLTg2ZmEtMTk5ZmYzODcxODYxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" .
+
+sw:image60 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg" .
+
+sw:image61 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjJjZGRhM2YtNTU4NC00OWMwLThhYWUtMWUxNDNhMDZlOTNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+sw:image62 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWU4NDQ2NjEtNjhkOS00Y2MwLWJkODItZmJhZGE0MDU1OWM4XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+sw:image63 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDEzZDY2ZDktNTlmOS00NThjLThkNTEtMjE5MzI5NWEwZmRjXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
+
+sw:image64 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYTVjZDBhYjQtZWNmZS00ZDk4LTgzZmMtNTBjMjRhYTcxOTg5XkEyXkFqcGdeQXVyNjQ5MTU1ODc@._V1_.jpg" .
+
+sw:image65 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYmM1MTVhMzctMWVhNi00NDM0LWJlNGItMDE4ZTY0ZTAwODgzXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" .
+
+sw:image66 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOWVmNTBiYTUtZWQ3Yi00ZDlhLTgyYjUtNzBhZjM3YjRiNGRkXkEyXkFqcGdeQXVyNzYyOTM1ODI@._V1_.jpg" .
+
+sw:image67 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+sw:image68 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTQzNDUwODk5NF5BMl5BanBnXkFtZTgwNzA0MDQ2NTE@._V1_.jpg" .
+
+sw:image69 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BN2M4NDM2NDItMzgzNy00OWRiLThhNjEtZDA2OWMyNTcwYzRjXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg" .
+
+sw:image7 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWIzNzA4MmUtYTIzNy00Y2Q5LWIyM2YtZGRiYzM0ZWQzOTU2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image70 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOWQ3MDg1MTgtMmI4ZC00YjU3LWIyZGEtNmRkNzI0Y2QyN2ExXkEyXkFqcGdeQXVyNzgzODI1OTE@._V1_.jpg" .
+
+sw:image71 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg" .
+
+sw:image72 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI@._V1_.jpg" .
+
+sw:image73 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" .
+
+sw:image74 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjkwMzIxYzMtOTVkMS00NDQxLThkMjItNzgxN2RiNjdlNTliXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+sw:image75 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg" .
+
+sw:image76 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOTI4NDhhNGEtZjQxZC00ZTRmLThmZTctOGJmY2ZlOTc0ZGY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image77 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYWVlMDI5N2UtZTIyMC00NjZkLWI5Y2QtODM5NGE5MzA0NmVjXkEyXkFqcGdeQXVyNzU3NjUxMzE@._V1_.jpg" .
+
+sw:image78 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOTY2NzFjODctOWUzMC00MGZhLTlhNjMtM2Y2ODBiNGY1ZWRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" .
+
+sw:image79 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNTE1M2NjNDgtYjQ2Ny00YTMzLWJiYWQtMTdmM2Q2YjA1MDg1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+sw:image8 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNDUyYTM0ODYtYzIyMy00OTM2LWFmOTAtMTFlODQwN2NlYjY1XkEyXkFqcGdeQXVyNTk5NTQzNDI@._V1_.jpg" .
+
+sw:image80 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" .
+
+sw:image81 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZGY0ZWFhZmEtZjdiYS00ZTQ4LTk5NzctM2M4MjFkZDg4OTAzXkEyXkFqcGdeQXVyNDQxOTAyNA@@._V1_.jpg" .
+
+sw:image82 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWZjYWI5MmItZTcxYS00MTY2LWE4NDEtZjJmYzc2N2E2M2I5XkEyXkFqcGdeQXVyMjU3OTMxNzI@._V1_.jpg" .
+
+sw:image83 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNGVkOTlhOTktNjZiNS00NDg3LWIxMDAtZTY5Y2E0YjllN2IxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image84 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" .
+
+sw:image85 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYmY3NGJlYTItYmQ4OS00ZTEwLWIzODItMjMzNWU2MDE0NjZhXkEyXkFqcGdeQXVyMzQzMDA3MTI@._V1_.jpg" .
+
+sw:image86 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYTc3ZTAwYTgtMmM4ZS00MDRiLWI2Y2EtYmRiZmE0YjkzMGY1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
+
+sw:image87 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNGYwOTI1MTUtYmY0Mi00OTAxLTkwNDEtOTI5YTkyZTVhN2JiXkEyXkFqcGdeQXVyMTAxNDE3MTE5._V1_.jpg" .
+
+sw:image88 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_.jpg" .
+
+sw:image89 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BN2YzNjU4MTYtMzY5OS00ODg0LTkxMTUtNjg0YjRkYzI5ZWJjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+sw:image9 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BOGZlNjZhNjgtMjQzZC00MDI0LWFmNGQtNmNiYTIyYTE3ODhkXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
+
+sw:image90 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjMwYWNiN2EtMWNkMS00MDU5LThiMGMtOTk5NTQzMjQ4OTkwXkEyXkFqcGdeQXVyNDExMzMxNjE@._V1_.jpg" .
+
+sw:image91 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BODc2MmVjZmUtNjAzMS00MDNiLWIyM2YtOGEzMjg0YjRhMzRmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" .
+
+sw:image92 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BYjA2MDM2YjctYzNhNC00NGEzLWFmYWEtODExODFkNmUyOGE2XkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_.jpg" .
+
+sw:image93 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZDIzZGEwYWQtZDZmZi00Y2NhLWIyNGUtNTJiNDg1NTkwYzE2XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg" .
+
+sw:image94 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZWI2NjliOTYtZjE1OS00YzAyLWJjYTQtYWNmZTQzMTQzNzVjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" .
+
+sw:image95 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image96 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjA0NjA4NjE2Nl5BMl5BanBnXkFtZTgwNzIxNTY2NjE@._V1_.jpg" .
+
+sw:image97 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg" .
+
+sw:image98 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjJjMzI1ZDctMDhmMy00Nzk2LTg5ZjgtNGIyN2QyNDQwMDU5XkEyXkFqcGdeQXVyMTMyNzMxNTcw._V1_.jpg" .
+
+sw:image99 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" .
+
+xsd:duration a rdfs:Datatype .
+
+schema:actor a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Person ;
+    owl:propertyDisjointWith schema:director .
+
+schema:workPresented a owl:ObjectProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range schema:Movie .
+
+sw:Aaron_Eckhart a schema:Person ;
+    rdfs:label "Aaron Eckhart" ;
+    schema:name "Aaron Eckhart" .
+
+sw:Adam_Sandler a schema:Person ;
+    rdfs:label "Adam Sandler" ;
+    schema:name "Adam Sandler" .
+
+sw:Adria_Arjona a schema:Person ;
+    rdfs:label "Adria Arjona" ;
+    schema:name "Adria Arjona" .
+
+sw:Ajay_Devgn a schema:Person ;
+    rdfs:label "Ajay Devgn" ;
+    schema:name "Ajay Devgn" .
+
+sw:Al_Pacino a schema:Person ;
+    rdfs:label "Al Pacino" ;
+    schema:name "Al Pacino" .
+
+sw:Anna-Maria_Sieklucka a schema:Person ;
+    rdfs:label "Anna-Maria Sieklucka" ;
+    owl:sameAs <http://dbpedia.org/resource/Anna-Maria_Sieklucka> ;
+    schema:name "Anna-Maria Sieklucka" .
+
+sw:Awkwafina a schema:Person ;
+    rdfs:label "Awkwafina" ;
+    schema:name "Awkwafina" .
+
+sw:Barbara_Bialowas a schema:Person ;
+    rdfs:label "Barbara Bialowas" ;
+    schema:name "Barbara Bialowas" .
+
+sw:Ben_Schwartz a schema:Person ;
+    rdfs:label "Ben Schwartz" ;
+    schema:name "Ben Schwartz" .
+
+sw:Chiwetel_Ejiofor a schema:Person ;
+    rdfs:label "Chiwetel Ejiofor" ;
+    schema:name "Chiwetel Ejiofor" .
+
+sw:Chris_Evans a schema:Person ;
+    rdfs:label "Chris Evans" ;
+    schema:name "Chris Evans" .
+
+sw:Christian_Bale a schema:Person ;
+    rdfs:label "Christian Bale" ;
+    schema:name "Christian Bale" .
+
+sw:David_Yates a schema:Person ;
+    rdfs:label "David Yates" ;
+    schema:name "David Yates" .
+
+sw:Geoffrey_Rush a schema:Person ;
+    rdfs:label "Geoffrey Rush" ;
+    schema:name "Geoffrey Rush" .
+
+sw:Guy_Ritchie a schema:Person ;
+    rdfs:label "Guy Ritchie" ;
+    schema:name "Guy Ritchie" .
+
+sw:James_Cameron a schema:Person ;
+    rdfs:label "James Cameron" ;
+    schema:name "James Cameron" .
+
+sw:James_Marsden a schema:Person ;
+    rdfs:label "James Marsden" ;
+    schema:name "James Marsden" .
+
+sw:Jeff_Fowler a schema:Person ;
+    rdfs:label "Jeff Fowler" ;
+    schema:name "Jeff Fowler" .
+
+sw:Jim_Carrey a schema:Person ;
+    rdfs:label "Jim Carrey" ;
+    schema:name "Jim Carrey" .
+
+sw:Kenneth_Branagh a schema:Person ;
+    rdfs:label "Kenneth Branagh" ;
+    schema:name "Kenneth Branagh" .
+
+sw:Leonardo_DiCaprio a schema:Person ;
+    rdfs:label "Leonardo DiCaprio" ;
+    schema:name "Leonardo DiCaprio" .
+
+sw:Los_Tipos_Malos a schema:Movie ;
+    rdfs:label "Los Tipos Malos" ;
+    schema:name "Los Tipos Malos" .
+
+sw:Margot_Robbie a schema:Person ;
+    rdfs:label "Margot Robbie" ;
+    schema:name "Margot Robbie" .
+
+sw:Mark_Wahlberg a schema:Person ;
+    rdfs:label "Mark Wahlberg" ;
+    schema:name "Mark Wahlberg" .
+
+sw:Matthew_McConaughey a schema:Person ;
+    rdfs:label "Matthew McConaughey" ;
+    schema:name "Matthew McConaughey" .
+
+sw:Michele_Morrone a schema:Person ;
+    rdfs:label "Michele Morrone" ;
+    schema:name "Michele Morrone" .
+
+sw:Michelle_Dockery a schema:Person ;
+    rdfs:label "Michelle Dockery" ;
+    schema:name "Michelle Dockery" .
+
+sw:Michelle_Yeoh a schema:Person ;
+    rdfs:label "Michelle Yeoh" ;
+    schema:name "Michelle Yeoh" .
+
+sw:Olivia_Wilde a schema:Person ;
+    rdfs:label "Olivia Wilde" ;
+    schema:name "Olivia Wilde" .
+
+sw:Rebecca_Ferguson a schema:Person ;
+    rdfs:label "Rebecca Ferguson" ;
+    schema:name "Rebecca Ferguson" .
+
+sw:Robert_Eggers a schema:Person ;
+    rdfs:label "Robert Eggers" ;
+    schema:name "Robert Eggers" .
+
+sw:Ryan_Reynolds a schema:Person ;
+    rdfs:label "Ryan Reynolds" ;
+    schema:name "Ryan Reynolds" .
+
+sw:Sam_Raimi a schema:Person ;
+    rdfs:label "Sam Raimi" ;
+    schema:name "Sam Raimi" .
+
+sw:Sam_Worthington a schema:Person ;
+    rdfs:label "Sam Worthington" ;
+    schema:name "Sam Worthington" .
+
+sw:Scott_Derrickson a schema:Person ;
+    rdfs:label "Scott Derrickson" ;
+    schema:name "Scott Derrickson" .
+
+sw:Shawn_Levy a schema:Person ;
+    rdfs:label "Shawn Levy" ;
+    schema:name "Shawn Levy" .
+
+sw:Sing_2 a schema:Movie ;
+    rdfs:label "Sing 2" ;
+    schema:actor sw:Matthew_McConaughey,
+        sw:Reese_Witherspoon,
+        sw:Scarlett_Johansson ;
+    schema:datePublished "2022-01-06"^^xsd:date ;
+    schema:director sw:Christophe_Lourdelet,
+        sw:Garth_Jennings ;
+    schema:duration "PT1H50M"^^xsd:duration ;
+    schema:genre "Adventure",
+        "Animation",
+        "Comedy" ;
+    schema:image sw:image46 ;
+    schema:name "Sing 2" .
+
+sw:Tim_Robbins a schema:Person ;
+    rdfs:label "Tim Robbins" ;
+    schema:name "Tim Robbins" .
+
+sw:Tom_Cruise a schema:Person ;
+    rdfs:label "Tom Cruise" ;
+    schema:name "Tom Cruise" .
+
+sw:Tom_Hanks a schema:Person ;
+    rdfs:label "Tom Hanks" ;
+    schema:name "Tom Hanks" .
+
+sw:Tom_Holland a schema:Person ;
+    rdfs:label "Tom Holland" ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Holland> ;
+    schema:name "Tom Holland" .
+
+sw:Tomasz_Mandes a schema:Person ;
+    rdfs:label "Tomasz Mandes" ;
+    schema:name "Tomasz Mandes" .
+
+sw:Yahya_Abdul-Mateen_II a schema:Person ;
+    rdfs:label "Yahya Abdul-Mateen II" ;
+    schema:name "Yahya Abdul-Mateen II" .
+
+sw:Zendaya a schema:Person ;
+    rdfs:label "Zendaya" ;
+    schema:name "Zendaya" .
+
+sw:Zoe_Saldana a schema:Person ;
+    rdfs:label "Zoe Saldana" ;
+    schema:name "Zoe Saldana" .
+
+schema:AggregateRating a owl:Class .
+
+schema:director a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Person .
+
+sw:Amber_Heard a schema:Person ;
+    rdfs:label "Amber Heard" ;
+    schema:name "Amber Heard" .
+
+sw:Ana_de_Armas a schema:Person ;
+    rdfs:label "Ana de Armas" ;
+    schema:name "Ana de Armas" .
+
+sw:Animales_Fantásticos_3__Los_Secretos_De_Dumbledore a schema:Movie ;
+    rdfs:label "Animales Fantásticos 3  Los Secretos De Dumbledore" ;
+    schema:name "Animales Fantásticos 3  Los Secretos De Dumbledore" .
+
+sw:Anthony_Russo a schema:Person ;
+    rdfs:label "Anthony Russo" ;
+    schema:name "Anthony Russo" .
+
+sw:Benedict_Cumberbatch a schema:Person ;
+    rdfs:label "Benedict Cumberbatch" ;
+    owl:sameAs <http://dbpedia.org/resource/Benedict_Cumberbatch> ;
+    schema:name "Benedict Cumberbatch" .
+
+sw:Channing_Tatum a schema:Person ;
+    rdfs:label "Channing Tatum" ;
+    owl:sameAs <http://dbpedia.org/resource/Channing_Tatum> ;
+    schema:name "Channing Tatum" .
+
+sw:Eddie_Redmayne a schema:Person ;
+    rdfs:label "Eddie Redmayne" ;
+    owl:sameAs <http://dbpedia.org/resource/Eddie_Redmayne> ;
+    schema:name "Eddie Redmayne" .
+
+sw:Joe_Russo a schema:Person ;
+    rdfs:label "Joe Russo" ;
+    schema:name "Joe Russo" .
+
+sw:Johnny_Depp a schema:Person ;
+    rdfs:label "Johnny Depp" ;
+    schema:name "Johnny Depp" .
+
+sw:Mark_Ruffalo a schema:Person ;
+    rdfs:label "Mark Ruffalo" ;
+    schema:name "Mark Ruffalo" .
+
+<http://www.semanticweb.org/Robert_Downey_Jr.> a schema:Person ;
+    rdfs:label "Robert Downey Jr." ;
+    schema:name "Robert Downey Jr." .
+
+sw:Taika_Waititi a schema:Person ;
+    rdfs:label "Taika Waititi" ;
+    schema:name "Taika Waititi" .
+
+sw:Sonic_2 a schema:Movie ;
+    rdfs:label "Sonic 2" ;
+    schema:name "Sonic 2" .
+
+schema:MovieTheater a owl:Class .
+
+sw:Doctor_Strange_En_El_Multiverso_De_La_Locura a schema:Movie ;
+    rdfs:label "Doctor Strange En El Multiverso De La Locura" ;
+    schema:name "Doctor Strange En El Multiverso De La Locura" .
+
+schema:ScreeningEvent a owl:Class .
+
+schema:ImageObject a owl:Class .
+
+schema:Movie a owl:Class .
+
+schema:Person a owl:Class .
+

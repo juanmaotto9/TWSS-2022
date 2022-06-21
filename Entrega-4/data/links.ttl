@@ -1,0 +1,25 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sw: <http://www.semanticweb.org/> .
+
+sw:Adam_Driver owl:sameAs dbr:Adam_Driver .
+
+sw:Benedict_Cumberbatch owl:sameAs dbr:Benedict_Cumberbatch .
+
+sw:Channing_Tatum owl:sameAs dbr:Channing_Tatum .
+
+sw:Ezra_Miller owl:sameAs dbr:Ezra_Miller .
+
+sw:Jared_Leto owl:sameAs dbr:Jared_Leto .
+
+sw:Daniel_Radcliffe owl:sameAs dbr:Daniel_Radcliffe .
+
+sw:Eddie_Redmayne owl:sameAs dbr:Eddie_Redmayne .
+
+sw:Sandra_Bullock owl:sameAs dbr:Sandra_Bullock .
+
+sw:Scarlett_Johansson owl:sameAs dbr:Scarlett_Johansson .
+
+sw:Tom_Holland owl:sameAs dbr:Tom_Holland .
+
+sw:Anna-Maria_Sieklucka owl:sameAs dbr:Anna-Maria_Sieklucka .
